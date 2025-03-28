@@ -34,6 +34,12 @@ This repository showcases the **Embedded Systems** projects developed in **Embar
 ## 🔗 Projects
 Below is a list of developed projects. Each has its own directory within the repository:
 
+## 🎯 Project Objective
+Describe the purpose and goals of the project here.
+
+## 🔧 Components Used
+- List the components or hardware used in the project (e.g., Raspberry Pi, sensors, actuators, etc.).
+
 - [Project 1 - Project Name](./projects/project1/)
 - [Project 2 - Project Name](./projects/project2/)
 - [Project 3 - Project Name](./projects/project3/)
