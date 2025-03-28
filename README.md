@@ -7,8 +7,18 @@ This repository showcases the **Embedded Systems** projects developed in **Embar
 
 ## 📂 Repository Structure
 
+
+## 🔗 Projects
+Below is a list of developed projects. Each has its own directory within the repository:
+
+## 🎯 Project Objective
+Describe the purpose and goals of the project here.
+
+## 🔧 Components Used
+- List the components or hardware used in the project (e.g., Raspberry Pi, sensors, actuators, etc.).
+
 ```
-/meus_projetos
+/projects
 │── /project_1
 │   ├── src/                 # Main source code (.c, .cpp)
 │   ├── include/             # Headers (.h, .hpp)
@@ -30,15 +40,6 @@ This repository showcases the **Embedded Systems** projects developed in **Embar
 │── README.md  (General repository explanation)
 ├── LICENSE
 ```
-
-## 🔗 Projects
-Below is a list of developed projects. Each has its own directory within the repository:
-
-## 🎯 Project Objective
-Describe the purpose and goals of the project here.
-
-## 🔧 Components Used
-- List the components or hardware used in the project (e.g., Raspberry Pi, sensors, actuators, etc.).
 
 - [Project 1 - Project Name](./projects/project1/)
 - [Project 2 - Project Name](./projects/project2/)
