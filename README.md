@@ -5,6 +5,7 @@ Este repositório apresenta os projetos de **Sistemas Embarcados** desenvolvidos
 
 ## 📂 Estrutura do Repositório
 
+```
 /meus_projetos
 │── /projeto_1
 │   ├── src/                 # Código-fonte principal (.c, .cpp)
