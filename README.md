@@ -1,63 +1,63 @@
-# 🚀 EmbarcaTech 2025 - Fase II
+# 🚀 EmbarcaTech 2025 - Phase II
 
-## 📚 Objetivo
-Este repositório apresenta os projetos de **Sistemas Embarcados** desenvolvidos na **EmbarcaTech 2025 - Fase II**. Aqui você encontrará o código-fonte, documentação e recursos utilizados no desenvolvimento dos sistemas.
+## 📚 Objective
+This repository showcases the **Embedded Systems** projects developed in **EmbarcaTech 2025 - Phase II**. Here, you will find source code, documentation, and resources used in the development of these systems.
 
-## 📂 Estrutura do Repositório
+## 📂 Repository Structure
 
 ```
 /meus_projetos
-│── /projeto_1
-│   ├── src/                 # Código-fonte principal (.c, .cpp)
-│   ├── include/             # Cabeçalhos (.h, .hpp)
-│   ├── README.md            # Projeto em Foco
-│   │── assets               # Imagens, Vídeos e Diagramas
-│   │── docs                 # Documentação Técnica
-│── /projeto_2
-│   ├── src/                 # Código-fonte principal (.c, .cpp)
-│   ├── include/             # Cabeçalhos (.h, .hpp)
-│   ├── README.md            # Projeto em Foco
-│   │── assets               # Imagens, Vídeos e Diagramas
-│   │── docs                 # Documentação Técnica
-│── /projeto_3
-│   ├── src/                 # Código-fonte principal (.c, .cpp)
-│   ├── include/             # Cabeçalhos (.h, .hpp)
-│   ├── README.md            # Projeto em Foco
-│   │── assets               # Imagens, Vídeos e Diagramas
-│   │── docs                 # Documentação Técnica
-│── README.md  (Explicação geral do repositório)
+│── /project_1
+│   ├── src/                 # Main source code (.c, .cpp)
+│   ├── include/             # Headers (.h, .hpp)
+│   ├── README.md            # Project Overview
+│   │── assets               # Images, Videos, and Diagrams
+│   │── docs                 # Technical Documentation
+│── /project_2
+│   ├── src/                 # Main source code (.c, .cpp)
+│   ├── include/             # Headers (.h, .hpp)
+│   ├── README.md            # Project Overview
+│   │── assets               # Images, Videos, and Diagrams
+│   │── docs                 # Technical Documentation
+│── /project_3
+│   ├── src/                 # Main source code (.c, .cpp)
+│   ├── include/             # Headers (.h, .hpp)
+│   ├── README.md            # Project Overview
+│   │── assets               # Images, Videos, and Diagrams
+│   │── docs                 # Technical Documentation
+│── README.md  (General repository explanation)
 ├── LICENSE
 ```
 
-## 🔗 Projetos
-Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório específico dentro do repositório:
+## 🔗 Projects
+Below is a list of developed projects. Each has its own directory within the repository:
 
-- [Projeto 1 - Nome do Projeto](./projetos/projeto1/)
-- [Projeto 2 - Nome do Projeto](./projetos/projeto2/)
-- [Projeto 3 - Nome do Projeto](./projetos/projeto3/)
+- [Project 1 - Project Name](./projects/project1/)
+- [Project 2 - Project Name](./projects/project2/)
+- [Project 3 - Project Name](./projects/project3/)
 
-## 🖼️ Setup do Hardware
-Sugestão: incluir aqui uma **foto geral do kit** ou do **setup utilizado** nos projetos. Isso pode ajudar na reprodução dos experimentos.
+## 🖼️ Hardware Setup
+Suggestion: Include a **general picture of the kit** or the **setup used** in the projects. This can help with experiment replication.
 
-## 🛠️ Requisitos e Configuração
-Para compilar e rodar os projetos no **Raspberry Pi Pico W**, siga os passos abaixo:
+## 🛠️ Requirements and Setup
+To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:
 
-1. **Instale o SDK do Pico** seguindo as instruções oficiais da Raspberry Pi.
-2. Clone este repositório:
+1. **Install the Pico SDK** following the official Raspberry Pi instructions.
+2. Clone this repository:
    ```bash
-   git clone https://github.com/seu_usuario/seu_repositorio.git
+   git clone https://github.com/your_user/your_repository.git
    cd meu_projeto
    ```
-3. **Crie o diretório de build e compile:**
+3. **Create the build directory and compile:**
    ```bash
    mkdir build
    cd build
    cmake ..
    make
    ```
-4. **Carregue o firmware no Raspberry Pi Pico W.**
+4. **Upload the firmware to the Raspberry Pi Pico W.**
 
-## 👤 Autor
+## 👤 Author
 **Antonio Almeida - Hbr Campinas**
 
-Se tiver dúvidas ou sugestões, fique à vontade para contribuir ou abrir uma _issue_. 🚀
+If you have any questions or suggestions, feel free to contribute or open an _issue_. 🚀
