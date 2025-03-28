@@ -17,6 +17,7 @@ Este repositório apresenta os projetos de **Sistemas Embarcados** desenvolvidos
 │── assets                  # Imagens, Vídeos e Diagramas
 │── docs                    # Documentação Técnica
 │── README.md               # Projeto em Foco
+├── LICENSE
 ```
 
 ## 🔗 Projetos
