@@ -52,11 +52,13 @@ Suggestion: Include a **general picture of the kit** or the **setup used** in th
 To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:
 
 1. **Install the Pico SDK** following the official Raspberry Pi instructions.
+
 2. Clone this repository:
    ```bash
    git clone https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025.git
-   cd meu_projeto
+   cd antonio_almeida_embarcatech_HBr_2025
    ```
+
 3. **Create the build directory and compile:**
    ```bash
    mkdir build
@@ -64,6 +66,7 @@ To compile and run the projects on the **Raspberry Pi Pico W**, follow these ste
    cmake ..
    make
    ```
+
 4. **Upload the firmware to the Raspberry Pi Pico W.**
 
 ## 👤 Author
