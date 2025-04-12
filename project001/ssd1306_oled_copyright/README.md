@@ -3,13 +3,13 @@ Pode ser necessário algumas alterações no arquivo CMakeLists.txt, haja visto 
 do ambiente segue características individuais de cada projetista. Sem essas alterações o
 código pode não apresentar o comportamento desejado!
 ___
-### 🚀 **Tarefa..**
+## 🚀 **Tarefa..**
 
-## 📌 Contador decrescente com registro de eventos por interrupçãoTarefa
+### 📌 Contador decrescente com registro de eventos por interrupçãoTarefa
 
-## 🛠️ Explicação da Lógica da Tarefa
+### 🛠️ Explicação da Lógica da Tarefa
 
-## 🎯 Faça um programa, em linguagem C, que implemente um contador decrescente controlado por interrupção, com o seguinte comportamento:
+### 🎯 Faça um programa, em linguagem C, que implemente um contador decrescente controlado por interrupção, com o seguinte comportamento:
 
 1. **Toda vez que o Botão A (GPIO5) for pressionado:**
 
@@ -47,4 +47,4 @@ ___
 
 🟢 Teste 0001 - Ok! Debounce por tempo...
 ___
-![Projeto final testado](\assets\20250412_174721.jpg)
+![Projeto final testado](./assets/20250412_174721.jpg)

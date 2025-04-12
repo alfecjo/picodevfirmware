@@ -31,7 +31,7 @@ Describe the purpose and goals of the project here.
 ├── LICENSE
 ```
 
-- [Project 1 - ssd1306_oled_copyright](.https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/tree/main/project001/ssd1306_oled_copyright)
+- [Project 1 - ssd1306_oled_copyright](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/tree/main/project001/ssd1306_oled_copyright.git)
 
 ## 🖼️ Hardware Setup
 Suggestion: Include a **general picture of the kit** or the **setup used** in the projects. This can help with experiment replication.
@@ -44,7 +44,7 @@ To compile and run the projects on the **Raspberry Pi Pico W**, follow these ste
 2. Clone this repository:
    ```bash
    git clone https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025.git
-   cd antonio_almeida_embarcatech_HBr_2025
+   cd antonio_almeida_embarcatech_HBr_2025/project001/ssd1306_oled_copyright
    ```
 
 3. **Create the build directory and compile:**
