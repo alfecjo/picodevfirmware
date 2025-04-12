@@ -5,13 +5,13 @@ código pode não apresentar o comportamento desejado!
 ___
 ## 🚀 **Tarefa..**
 
-### 📌 Contador decrescente com registro de eventos por interrupçãoTarefa
+### 📌 Contador decrescente com registro de eventos por interrupção
 
-### 🛠️ Explicação da Lógica da Tarefa
+### 🛠️ Explicação da Lógica
 
 ### 🎯 Faça um programa, em linguagem C, que implemente um contador decrescente controlado por interrupção, com o seguinte comportamento:
 
-1. **Toda vez que o Botão A (GPIO5) for pressionado:**
+1. Toda vez que o Botão A (GPIO5) for pressionado:
 
 2. O contador decrescente reinicia em 9 e o valor da contagem é mostrado no display OLED.
 
@@ -21,13 +21,13 @@ ___
 
 5. Quando o contador atingir zero, o sistema congela e ignora temporariamente os cliques no Botão B (eles não devem ser acumulados fora do intervalo ativo).
 
-6. **O sistema permanece parado após a contagem, exibindo:**
+6. O sistema permanece parado após a contagem, exibindo:
 
 7. O valor 0 no contador
 
 8. A quantidade final de cliques no Botão B registrados durante o período de 9 segundo (contagem regressiva)
 
-9. **Somente ao pressionar novamente o Botão A, o processo todo se reinicia:**
+9. Somente ao pressionar novamente o Botão A, o processo todo se reinicia:
 
 10. O contador volta para 9
 
@@ -45,6 +45,6 @@ ___
 
 ### 📋 **Lista de Testes que contribuiram para a criação do projeto:**
 
-🟢 Teste 0001 - Ok! Debounce por tempo...
+🟢 Teste 001 - Ok! Debounce por tempo...
 ___
 ![Projeto final testado](./assets/20250412_174721.jpg)
