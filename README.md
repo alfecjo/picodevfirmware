@@ -20,28 +20,18 @@ Describe the purpose and goals of the project here.
 ```
 /projects
 │── /project_1
-│   ├── src/                 # Main source code (.c, .cpp)
-│   ├── include/             # Headers (.h, .hpp)
-│   ├── README.md            # Project Overview
-│   │── assets               # Images, Videos, and Diagrams
-│   │── docs                 # Technical Documentation
-│── /project_2
-│   ├── src/                 # Main source code (.c, .cpp)
-│   ├── include/             # Headers (.h, .hpp)
-│   ├── README.md            # Project Overview
-│   │── assets               # Images, Videos, and Diagrams
-│   │── docs                 # Technical Documentation
-│── /project_3
-│   ├── src/                 # Main source code (.c, .cpp)
-│   ├── include/             # Headers (.h, .hpp)
-│   ├── README.md            # Project Overview
-│   │── assets               # Images, Videos, and Diagrams
-│   │── docs                 # Technical Documentation
+│   │── /ssd1306_oled_copyright
+│       │── assets               # Images, Videos, and Diagrams
+│       │── docs                 # Technical Documentation
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Configuração do projeto
+│       ├── README.md            # Project Overview
 │── README.md  (General repository explanation)
 ├── LICENSE
 ```
 
-- [Project 1 - Project Name](./projects/project1/)
+- [Project 1 - Project Name](./projects/antonio_almeida_embarcatech_HBr_2025/project001/ssd1306_oled_copyright)
 - [Project 2 - Project Name](./projects/project2/)
 - [Project 3 - Project Name](./projects/project3/)
 
