@@ -31,7 +31,7 @@ Describe the purpose and goals of the project here.
 ├── LICENSE
 ```
 
-- [Project 1 - ssd1306_oled_copyright](./antonio_almeida_embarcatech_HBr_2025/project001/ssd1306_oled_copyright)
+- [Project 1 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
 
 project001/ssd1306_oled_copyright
 
