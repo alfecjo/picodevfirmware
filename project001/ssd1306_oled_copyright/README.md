@@ -47,4 +47,4 @@ ___
 
 🟢 Teste 0001 - Ok! Debounce por tempo...
 ___
-![Projeto final - EcloPiu-Piu](\assets\20250412_174721.jpg)
+![Projeto final testado](\assets\20250412_174721.jpg)

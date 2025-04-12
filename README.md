@@ -31,9 +31,7 @@ Describe the purpose and goals of the project here.
 ├── LICENSE
 ```
 
-- [Project 1 - Project Name](./projects/antonio_almeida_embarcatech_HBr_2025/project001/ssd1306_oled_copyright)
-- [Project 2 - Project Name](./projects/project2/)
-- [Project 3 - Project Name](./projects/project3/)
+- [Project 1 - ssd1306_oled_copyright](.https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/tree/main/project001/ssd1306_oled_copyright)
 
 ## 🖼️ Hardware Setup
 Suggestion: Include a **general picture of the kit** or the **setup used** in the projects. This can help with experiment replication.
