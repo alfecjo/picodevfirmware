@@ -46,7 +46,7 @@ This section illustrates the hardware used in this project to help replicate the
 
 ---
 
-## 📝 **The code was written in C/C++ and tested using the Bitdoglab platform.**
+## 📝 **The code was written in C/C++ and tested using the [BitDogLab](https://github.com/BitDogLab) platform.**
 
 ---
 
