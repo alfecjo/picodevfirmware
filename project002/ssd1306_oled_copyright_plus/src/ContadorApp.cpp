@@ -113,7 +113,6 @@ bool ContadorApp::handle_timer()
     return true;
 }
 
-// --- CALLBACKS ---
 extern "C" void gpio_callback(uint gpio, uint32_t events)
 {
     if (auto app = ContadorApp::getInstance())
