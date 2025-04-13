@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include "hardware/irq.h"
-
 #include "ContadorApp.hpp"
 
 extern "C"
