@@ -32,6 +32,18 @@ You may need to adjust the `CMakeLists.txt` file according to your development e
    3. The counter for Button B presses is also reset to **0**.
    4. A new countdown cycle begins.
 
+## 🖼️ Hardware Setup
+
+This section illustrates the hardware used in this project to help replicate the setup accurately.
+
+### 🔧 Components Used
+
+- Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab)
+- SSD1306 OLED Display (I2C)
+- Push buttons (x2)
+- Breadboard and jumper wires
+- USB cable (for power and programming)
+
 ---
 
 ## 📝 **The code was written in C/C++ and tested using the Bitdoglab platform.**

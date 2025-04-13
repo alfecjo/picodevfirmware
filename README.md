@@ -10,7 +10,7 @@ Below is a list of developed projects. Each has its own directory within the rep
 
 ## 🎯 Project Objective
 Each project's purpose and specific goals are described in detail inside its own directory.  
-To learn more about a project, refer to its individual [`README.md`](./projects/) file located within the project's folder.
+To learn more about a project, refer to its individual `README.md` file located within the project's folder.
 
 ## 📂 Repository Structure
 ```
@@ -28,18 +28,6 @@ To learn more about a project, refer to its individual [`README.md`](./projects/
 ```
 
 - [Project001 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
-
-## 🖼️ Hardware Setup
-
-This section illustrates the hardware used in this project to help replicate the setup accurately.
-
-### 🔧 Components Used
-
-- Raspberry Pi Pico W [BitDogLab](https://github.com/BitDogLab)
-- SSD1306 OLED Display (I2C)
-- Push buttons (x2)
-- Breadboard and jumper wires
-- USB cable (for power and programming)
 
 ## 🛠️ Requirements and Setup
 To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:
@@ -75,4 +63,5 @@ To compile and run the projects on the **Raspberry Pi Pico W**, follow these ste
 ## 👤 Author
 **Antonio Almeida - Hbr Campinas**
 
-If you have any questions or suggestions, feel free to contribute or open an _issue_. 🚀
+Have suggestions or found a bug?
+Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/issues). 🚀
