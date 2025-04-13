@@ -5,11 +5,11 @@ código pode não apresentar o comportamento desejado!
 ___
 ## 🚀 **Tarefa..**
 
-### 📌 Contador decrescente com registro de eventos por interrupção
+## 📌 Contador decrescente com registro de eventos por interrupção
 
-### 🛠️ Explicação da Lógica
+## 🛠️ Explicação da Lógica
 
-### 🎯 Faça um programa, em linguagem C, que implemente um contador decrescente controlado por interrupção, com o seguinte comportamento:
+## 🎯 Faça um programa, em linguagem C, que implemente um contador decrescente controlado por interrupção, com o seguinte comportamento:
 
 1. Toda vez que o Botão A (GPIO5) for pressionado:
 
@@ -36,14 +36,14 @@ ___
 12. A contagem recomeça do início
 ___
 
-### 📝 **O código foi desenvolvido em C/C++ e testado no ambiente Bitdoglab.**
+## 📝 **O código foi desenvolvido em C/C++ e testado no ambiente Bitdoglab.**
 
-### 🔧 **Status**
+## 🔧 **Status**
 
  🚧 Testado 🟢
 ___
 
-### 📋 **Lista de Testes que contribuiram para a criação do projeto:**
+## 📋 **Lista de Testes que contribuiram para a criação do projeto:**
 
 🟢 Teste 001 - Ok! Debounce por tempo...
 ___

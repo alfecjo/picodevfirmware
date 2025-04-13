@@ -15,11 +15,11 @@ Below is a list of developed projects. Each has its own directory within the rep
 Describe the purpose and goals of the project here.
 
 ## 🔧 Components Used
-- List the components or hardware used in the project (e.g., Raspberry Pi, sensors, actuators, etc.).
+- List the components or hardware used in the project (e.g., Raspberry Pi Pico W, sensors, actuators, etc.).
 
 ```
 /projects
-│── /project_1
+│── /project001
 │   │── /ssd1306_oled_copyright
 │       │── assets               # Images, Videos, and Diagrams
 │       │── docs                 # Technical Documentation
@@ -31,9 +31,7 @@ Describe the purpose and goals of the project here.
 ├── LICENSE
 ```
 
-- [Project 1 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
-
-project001/ssd1306_oled_copyright
+- [Project001 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
 
 ## 🖼️ Hardware Setup
 Suggestion: Include a **general picture of the kit** or the **setup used** in the projects. This can help with experiment replication.
@@ -58,6 +56,16 @@ To compile and run the projects on the **Raspberry Pi Pico W**, follow these ste
    ```
 
 4. **Upload the firmware to the Raspberry Pi Pico W.**
+
+### 🔌 Uploading Firmware to the Raspberry Pi Pico W
+
+1. **Connect** your Raspberry Pi Pico W to your computer via USB while holding down the **BOOTSEL** button.
+2. The device will mount as a USB mass storage device (usually named `RPI-RP2`).
+3. **Copy** the compiled `.uf2` firmware file to the mounted drive.
+4. Once the transfer is complete, the Pico W will automatically reboot and begin running the new firmware.
+
+> 💡 **Tip:** This firmware is part of the current project and can eventually be tested or integrated with the [BitDogLab](https://github.com/BitDogLab) environment as needed.
+
 
 ## 👤 Author
 **Antonio Almeida - Hbr Campinas**
