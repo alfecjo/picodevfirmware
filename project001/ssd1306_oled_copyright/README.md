@@ -1,50 +1,54 @@
-### Observação importante:
-Pode ser necessário algumas alterações no arquivo CMakeLists.txt, haja visto que cada instalação
-do ambiente segue características individuais de cada projetista. Sem essas alterações o
-código pode não apresentar o comportamento desejado!
-___
-## 🚀 **Tarefa..**
+### ⚠️ Important Note:
+You may need to adjust the `CMakeLists.txt` file according to your development environment, as each setup might differ based on the developer's system configuration. Without these adjustments, the code may not behave as expected.
 
-## 📌 Contador decrescente com registro de eventos por interrupção
+---
 
-## 🛠️ Explicação da Lógica
+## 🚀 **Assignment**
 
-## 🎯 Faça um programa, em linguagem C, que implemente um contador decrescente controlado por interrupção, com o seguinte comportamento:
+## 📌 Countdown Timer with Event Logging via Interrupts
 
-1. Toda vez que o Botão A (GPIO5) for pressionado:
+---
 
-2. O contador decrescente reinicia em 9 e o valor da contagem é mostrado no display OLED.
+## 🛠️ Logic Explanation
 
-3. O sistema entra em modo de contagem regressiva ativa, decrementando o contador de 1 em 1 a cada segundo até chegar em zero.
+## 🎯 Write a program in C that implements a **countdown timer controlled by interrupts**, following this behavior:
 
-4. Durante essa contagem (ou seja, de 9 até 0), o programa deve registrar quantas vezes o Botão B (GPIO6) foi pressionado. O valor deste registro de eventos de botão pressionado também deve ser mostrado no display OLED.
+1. Every time **Button A (GPIO5)** is pressed:
+   1. The countdown resets to **9**, and the value is shown on the **OLED display**.
+   2. The system enters **active countdown mode**, decrementing the counter by 1 every second until it reaches 0.
+   3. While the countdown is running (from 9 to 0):
+      - The system should count how many times **Button B (GPIO6)** is pressed.
+      - This number should also be displayed in real time on the OLED.
+   4. When the countdown reaches **0**:
+      - The system **freezes**.
+      - Any additional Button B presses are **ignored** (they are not counted outside the countdown window).
+   5. While frozen, the OLED displays:
+      - The final countdown value: `0`.
+      - The **total number of Button B presses** registered during the 9-second countdown window.
+2. To restart the process:
+   1. Press **Button A** again.
+   2. The countdown is reset to **9**.
+   3. The counter for Button B presses is also reset to **0**.
+   4. A new countdown cycle begins.
 
-5. Quando o contador atingir zero, o sistema congela e ignora temporariamente os cliques no Botão B (eles não devem ser acumulados fora do intervalo ativo).
+---
 
-6. O sistema permanece parado após a contagem, exibindo:
+## 📝 **The code was written in C/C++ and tested using the Bitdoglab platform.**
 
-7. O valor 0 no contador
-
-8. A quantidade final de cliques no Botão B registrados durante o período de 9 segundo (contagem regressiva)
-
-9. Somente ao pressionar novamente o Botão A, o processo todo se reinicia:
-
-10. O contador volta para 9
-
-11. O número de cliques do Botão B é zerado
-
-12. A contagem recomeça do início
-___
-
-## 📝 **O código foi desenvolvido em C/C++ e testado no ambiente Bitdoglab.**
+---
 
 ## 🔧 **Status**
 
- 🚧 Testado 🟢
-___
+✅ Tested – Working properly 🟢
 
-## 📋 **Lista de Testes que contribuiram para a criação do projeto:**
+---
 
-🟢 Teste 001 - Ok! Debounce por tempo...
-___
-![Projeto final testado](./assets/20250412_174721.jpg)
+## 📋 **Checklist of Test Cases That Supported Project Development**
+
+- 🟢 Test 001 – Success! Time-based software debounce implemented.
+
+---
+
+## 🖼️ Hardware Setup
+
+![Final tested project](./assets/20250412_174721.jpg)

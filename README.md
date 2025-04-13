@@ -34,7 +34,16 @@ Describe the purpose and goals of the project here.
 - [Project001 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
 
 ## 🖼️ Hardware Setup
-Suggestion: Include a **general picture of the kit** or the **setup used** in the projects. This can help with experiment replication.
+
+This section illustrates the hardware used in this project to help replicate the setup accurately.
+
+### 🔧 Components Used
+
+- Raspberry Pi Pico W [BitDogLab](https://github.com/BitDogLab)
+- SSD1306 OLED Display (I2C)
+- Push buttons (x2)
+- Breadboard and jumper wires
+- USB cable (for power and programming)
 
 ## 🛠️ Requirements and Setup
 To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:
@@ -57,7 +66,7 @@ To compile and run the projects on the **Raspberry Pi Pico W**, follow these ste
 
 4. **Upload the firmware to the Raspberry Pi Pico W.**
 
-### 🔌 Uploading Firmware to the Raspberry Pi Pico W
+## 🔌 Uploading Firmware to the Raspberry Pi Pico W
 
 1. **Connect** your Raspberry Pi Pico W to your computer via USB while holding down the **BOOTSEL** button.
 2. The device will mount as a USB mass storage device (usually named `RPI-RP2`).
