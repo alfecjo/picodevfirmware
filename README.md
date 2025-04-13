@@ -36,7 +36,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 ```
 
 - [Project001 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
-- [Project001 - ssd1306_oled_copyright_plus](./project002/ssd1306_oled_copyrightplus/)
+- [Project001 - ssd1306_oled_copyright_plus](./project002/ssd1306_oled_copyright_plus/)
 
 ## 🛠️ Requirements and Setup
 To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:
