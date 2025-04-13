@@ -5,18 +5,14 @@
 ## 📚 Objective
 This repository showcases the **Embedded Systems** projects developed in **EmbarcaTech 2025 - Phase II**. Here, you will find source code, documentation, and resources used in the development of these systems.
 
-## 📂 Repository Structure
-
-
 ## 🔗 Projects
 Below is a list of developed projects. Each has its own directory within the repository:
 
 ## 🎯 Project Objective
-Describe the purpose and goals of the project here.
+Each project's purpose and specific goals are described in detail inside its own directory.  
+To learn more about a project, refer to its individual [`README.md`](./projects/) file located within the project's folder.
 
-## 🔧 Components Used
-- List the components or hardware used in the project (e.g., Raspberry Pi Pico W, sensors, actuators, etc.).
-
+## 📂 Repository Structure
 ```
 /projects
 │── /project001
