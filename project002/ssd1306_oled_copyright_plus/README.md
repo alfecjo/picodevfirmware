@@ -12,7 +12,31 @@ You may need to adjust the `CMakeLists.txt` file according to your development e
 
 ### 🛠️ Logic Explanation
 
-### 🎯 Write a program in C that implements a **countdown timer controlled by interrupts**, following this behavior:
+### 🎯 Write a program in C/C++ that implements a **countdown timer controlled by interrupts**, following this behavior:
+
+# Enhanced Project001 – Raspberry Pi Pico W (C++ & OOP)
+
+This project is an enhanced version of the original `project001`, designed specifically for the Raspberry Pi Pico W. It integrates both C and C++ code, transitioning from a procedural approach to an object-oriented one (OOP).
+
+The core logic remains the same as the original project, but the architecture has been restructured using C++ classes and modern design patterns, such as the Singleton pattern. This encourages deeper exploration and understanding of C++ in the context of embedded systems development.
+
+## 🔧 Key Features
+
+- Uses C++ for encapsulating application logic in a clean and scalable way.
+- Maintains compatibility with C-based SDK components via `extern "C"`.
+- Integrates button input handling with hardware interrupts (GPIO).
+- Implements debounce logic using `absolute_time_diff_us()`.
+- Includes a timer-based display update loop with the `repeating_timer` API.
+- Displays information on an SSD1306 OLED screen over I2C.
+
+## 🚀 Purpose
+
+This version aims to spark curiosity and experimentation in developers who are familiar with the Pico SDK in C and are looking to evolve into C++-based, object-oriented design practices. By mixing both C and C++, it becomes a practical gateway to:
+
+- Learn how to structure firmware using C++ OOP principles.
+- Understand integration between C-based libraries and C++ classes.
+- Begin architecting larger and more maintainable embedded applications.
+
 
 1. Every time **Button A (GPIO5)** is pressed:
    1. The countdown resets to **9**, and the value is shown on the **OLED display**.

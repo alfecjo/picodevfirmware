@@ -23,11 +23,20 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
 │       ├── README.md            # Project Overview
+│── /project002
+│   │── /ssd1306_oled_copyright_plus
+│       │── assets               # Images, Videos, and Diagrams
+│       │── docs                 # Technical Documentation
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Configuração do projeto
+│       ├── README.md            # Project Overview
 │── README.md  (General repository explanation)
 ├── LICENSE
 ```
 
 - [Project001 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
+- [Project001 - ssd1306_oled_copyright_plus](./project002/ssd1306_oled_copyrightplus/)
 
 ## 🛠️ Requirements and Setup
 To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:
