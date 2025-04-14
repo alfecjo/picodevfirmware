@@ -31,7 +31,6 @@ The RP2040 includes a built-in temperature sensor, which is connected to **ADC c
 
 The raw ADC value is read using `adc_read()` and then converted to a voltage using the following formula:
 
-```c
 voltage = raw_value * (3.3 / 4096)
 
 ### 🖼️ Hardware Setup
