@@ -1,4 +1,4 @@
-project(ssd1306_oled_copyright_plus)
+project(ssd1306_oled__plus_plus_copyright)
 
 # Adiciona o executável
 add_executable(${PROJECT_NAME}

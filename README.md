@@ -24,7 +24,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── CMakeLists.txt       # Configuração do projeto
 │       ├── README.md            # Project Overview
 │── /project002
-│   │── /ssd1306_oled_copyright_plus
+│   │── /ssd1306_oled__plus_plus_copyright
 │       │── assets               # Images, Videos, and Diagrams
 │       │── docs                 # Technical Documentation
 │       ├── include/             # Headers (.h, .hpp)
@@ -39,13 +39,22 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
 │       ├── README.md            # Project Overview
+│── /project003
+│   │── /ssd1306_oled_temp_int_copyright
+│       │── assets               # Images, Videos, and Diagrams
+│       │── docs                 # Technical Documentation
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Configuração do projeto
+│       ├── README.md            # Project Overview
 │── README.md  (General repository explanation)
 ├── LICENSE
 ```
 
 - [Project001 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
-- [Project002 - ssd1306_oled_copyright_plus](./project002/ssd1306_oled_copyright_plus/)
+- [Project002 - ssd1306_oled_copyright_plus](./project002/ssd1306_oled__plus_plus_copyright/)
 - [Project003 - ssd1306_oled_joy_copyright](./project003/ssd1306_oled_joy_copyright/)
+- [Project004 - ssd1306_oled_temp_int_copyright](./project004/ssd1306_oled_temp_int_copyright/)
 
 ## 🛠️ Requirements and Setup
 To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:

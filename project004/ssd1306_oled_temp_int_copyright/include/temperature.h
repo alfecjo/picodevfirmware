@@ -1,0 +1,8 @@
+#ifndef TEMPERATURE_H
+#define TEMPERATURE_H
+
+float read_voltage(void);
+
+float read_temperature(void);
+
+#endif
