@@ -13,8 +13,6 @@ The goal of this program is to read the joystick values from the BitDogLab joyst
 
 ## Enhanced Project003 – Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab)
 
-## 🛠️ Logic Explanation
-
 ## Step-by-Step Logic
 
 ### 1. **Reading Joystick Values**
@@ -79,7 +77,7 @@ This section illustrates the hardware used in this project to help replicate the
 
 ---
 
-### 📝 **The code was written in C/C++ and tested using the [BitDogLab](https://github.com/BitDogLab) platform.**
+### 📝 **The code was written in C and tested using the [BitDogLab](https://github.com/BitDogLab) platform.**
 
 ---
 
@@ -91,7 +89,7 @@ This section illustrates the hardware used in this project to help replicate the
 
 ### 📋 **Checklist of Test Cases That Supported Project Development**
 
-- 🟢 Test 001 – Success! Time-based software debounce implemented.
+- 🟢 Test 001 – Success!
 
 ---
 
