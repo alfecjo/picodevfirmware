@@ -3,17 +3,17 @@ You may need to adjust the `CMakeLists.txt` file according to your development e
 
 ---
 
-### Overview
+## Overview
 
 The goal of this program is to read the joystick values from the BitDogLab joystick and display these values either on the terminal or on an OLED display. The joystick values are converted into digital values using an ADC (Analog-to-Digital Converter), which allows us to read the position of the joystick.
 
 ---
 
-### 🛠️ Logic Explanation
+## 🛠️ Logic Explanation
 
-# Enhanced Project003 – Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab)
+## Enhanced Project003 – Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab)
 
-# 🛠️ Logic Explanation
+## 🛠️ Logic Explanation
 
 ## Step-by-Step Logic
 
