@@ -39,7 +39,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
 │       ├── README.md            # Project Overview
-│── /project003
+│── /project004
 │   │── /ssd1306_oled_temp_int_copyright
 │       │── assets               # Images, Videos, and Diagrams
 │       │── docs                 # Technical Documentation
