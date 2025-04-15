@@ -9,7 +9,7 @@ You may need to adjust the `CMakeLists.txt` file according to your development e
 
 ---
 
-# 🧠 Project006+ – Hybrid C/C++ Embedded App with OOP Enhancements
+# 🧠 Project006 – Hybrid C/C++ Embedded App with OOP Enhancements
 
 ## 🖥️ Platform
 Raspberry Pi Pico W / [BitDogLab](https://github.com/BitDogLab)
@@ -61,7 +61,7 @@ This section illustrates the hardware used in this project to help replicate the
 
 ---
 
-### 📝 **The code was written in C and tested using the [BitDogLab](https://github.com/BitDogLab) platform.**
+### 📝 **The code was written in Hybrid C/C++ and tested using the [BitDogLab](https://github.com/BitDogLab) platform.**
 
 ---
 
