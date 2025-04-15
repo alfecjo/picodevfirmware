@@ -35,8 +35,6 @@ A modular and object-oriented embedded application designed to:
 
 ## 🛠️ Logic Explanation
 
-## Enhanced Project004 – Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab)
-
 ## Step-by-Step Logic
 
 ### 1. **Reading the Internal Temperature Sensor**
