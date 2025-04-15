@@ -1,7 +1,11 @@
 
-# 🚀 EmbarcaTech 2025 - Phase I and II - Hbr Campinas
+# 🚀 EmbarcaTech 2025 - Phase I - Hbr Campinas
 
+## 📚 Objective
+This repository presents the initial Embedded Systems projects developed during EmbarcaTech 2025 - Phase I at HBR Campinas. It includes foundational code, tests, basic documentation, and essential resources that laid the groundwork for the advanced implementations in Phase II.
 [EmbarcaTech 2025 - Phase I](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025_fase_1)
+
+# 🚀 EmbarcaTech 2025 - Phase II - Hbr Campinas
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://alfecjo.github.io/antonio_almeida_embarcatech_HBr_2025/)
 
