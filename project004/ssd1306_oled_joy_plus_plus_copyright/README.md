@@ -5,7 +5,7 @@ You may need to adjust the CMakeLists.txt file according to your development env
 
 ## Overview
 
-The objective of this project is to read analog joystick values using a Raspberry Pi Pico W (or BitDogLab) and display the results on both the serial terminal and an OLED screen via I2C. The joystick’s analog values are digitized through an ADC (Analog-to-Digital Converter), allowing real-time monitoring and interaction.
+The objective of this project is to read analog joystick values using a Raspberry Pi Pico W (or [BitDogLab](https://github.com/BitDogLab)) and display the results on both the serial terminal and an OLED screen via I2C. The joystick’s analog values are digitized through an ADC (Analog-to-Digital Converter), allowing real-time monitoring and interaction.
 
 This hybrid implementation integrates C and C++, simulating a common enterprise environment where embedded firmware (in C) interacts with system-level components or UI logic (in C++), promoting modularity and scalability.
 
