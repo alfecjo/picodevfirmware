@@ -5,7 +5,7 @@ You may need to adapt your CMakeLists.txt or build system based on your specific
 
 ### 🚀 **Assignment**
 
-### 📌 Galton Board Simulation on SSD1306 OLED Display
+### 📌 Galton Board Simulation on SSD1306 OLED Display (Hybrid C/C++ with OOP)
 
 ---
 
@@ -54,8 +54,7 @@ You can tune these values in the code:
 #define MAX_HEIGHT     50      // Maximum height of a bar
 #define NUM_LEVELS     10      // Levels of obstacles
 #define BALL_RADIUS     2      // Size of the ball
-
----
+```
 
 ## 🖼️ Hardware Setup
 
