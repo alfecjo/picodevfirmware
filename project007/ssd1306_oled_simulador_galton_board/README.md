@@ -70,7 +70,7 @@ You can modify the following parameters in the code to adjust the simulation to 
 
 ## 🧑‍💻 Code Walkthrough
 
-## 💡 This project serves as an excellent example of **embedded systems engineering** using the **Raspberry Pi Pico** platform and the **Pico SDK** framework. It allows dynamic data visualization through an OLED display, being highly customizable and ideal for exploring concepts of physics, statistical simulations, and embedded device programming.
+💡 This project serves as an excellent example of **embedded systems engineering** using the **Raspberry Pi Pico** platform and the **Pico SDK** framework. It allows dynamic data visualization through an OLED display, being highly customizable and ideal for exploring concepts of physics, statistical simulations, and embedded device programming.
 
 ### 🔧 **Status**
 
