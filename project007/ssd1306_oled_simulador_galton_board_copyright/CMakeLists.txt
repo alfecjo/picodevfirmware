@@ -1,4 +1,4 @@
-project(ssd1306_oled_simulador_galton_board)
+project(ssd1306_oled_simulador_galton_board_copyright)
 
 # Adiciona o executável
 add_executable(${PROJECT_NAME}

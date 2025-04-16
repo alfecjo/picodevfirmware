@@ -88,7 +88,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 - [Project004 - ssd1306_oled_joy_plus_plus_copyright](./project004/ssd1306_oled_joy_plus_plus_copyright/)
 - [Project005 - ssd1306_oled_temp_int_copyright](./project005/ssd1306_oled_temp_int_copyright/)
 - [Project006 - ssd1306_oled_temp_int_plus_plus_copyright](./project006/ssd1306_oled_temp_int_plus_plus_copyright/)
-- [Project007 - ssd1306_oled_simulador_galton_board](./project007/ssd1306_oled_simulador_galton_board/)
+- [Project007 - ssd1306_oled_simulador_galton_board_copyright](./project007/ssd1306_oled_simulador_galton_board_copyright/)
 
 ## 🛠️ Requirements and Setup
 To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:
