@@ -26,7 +26,7 @@ The **Galton Board Simulator** is a modular and interactive application that sim
 - ✅ Histogram bars that update dynamically
 - ✅ Customizable parameters (number of bins, maximum height of bars)
 - ✅ SSD1306 OLED display (128x64) via I2C for graphical output
-- ✅ Written in Hybrid C with embedded systems principles
+- ✅ Written in C with embedded systems principles
 
 ---
 
