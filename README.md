@@ -100,7 +100,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 - [Project008 - ssd1306_oled_simulador_galton_board_plus_plus_copyright](./project008/ssd1306_oled_simulador_galton_board_plus_plus_copyright/)
 
 ## 🛠️ Requirements and Setup
-To compile and run the projects on the **Raspberry Pi Pico W**, follow these steps:
+To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](https://github.com/BitDogLab) environment, follow these steps:
 
 1. **Install the Pico SDK** following the official Raspberry Pi instructions.
 
