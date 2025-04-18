@@ -1,11 +1,11 @@
 
-# 🚀 EmbarcaTech 2025 - Phase I - Hbr Campinas
+# 🚀 EmbarcaTech 2025 - Phase I - Hbr Campinas Student
 
 ## 📚 Objective
 This repository presents the initial Embedded Systems projects developed during EmbarcaTech 2025 - Phase I at HBR Campinas. It includes foundational code, tests, basic documentation, and essential resources that laid the groundwork for the advanced implementations in Phase II.
 [EmbarcaTech 2025 - Phase I](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025_fase_1)
 
-# 🚀 EmbarcaTech 2025 - Phase II - Hbr Campinas
+# 🚀 EmbarcaTech 2025 - Phase II - Hbr Campinas Student
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://alfecjo.github.io/antonio_almeida_embarcatech_HBr_2025/)
 
@@ -131,7 +131,7 @@ To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](htt
 
 
 ## 👤 Author
-**Antonio Almeida - Student Hbr Campinas**
+**Antonio Almeida | HBr Campinas Student**
 
 Have suggestions or found a bug?
 Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/issues). 🚀
