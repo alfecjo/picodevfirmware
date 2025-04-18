@@ -1,86 +1,79 @@
+#include <stdlib.h>
+
 #include <stdio.h>
 
 #include "ssd1306.h"
 #include "oled_setup.h"
 
-extern void srand(unsigned int __seed);
-extern int rand(void);
+ssd1306_t disp;
 
-ssd1306_t disp; // A definição real da variável está aqui
+static int counter = 0;
 
 void setup_oled(void)
 {
-    // Configura a alimentação do display
-    disp.external_vcc = false; // Define se o display usa alimentação externa (false indica que usa alimentação interna)
-
-    // Inicializa o display SSD1306
-    // Parâmetros: &disp (estrutura de configuração), 128 (largura do display), 64 (altura do display), 0x3C (endereço I2C do display), i2c1 (bus I2C utilizado)
+    disp.external_vcc = false;
     ssd1306_init(&disp, 128, 64, 0x3C, i2c1);
-
-    // Limpa a tela do display
-    ssd1306_clear(&disp); // Chama a função para apagar qualquer conteúdo da tela
-}
-
-// Função para atualizar a exibição no OLED (Temperatura ou Umidade)
-void update_oled(float valor)
-{
-    char display_str[20]; // Declara um array de caracteres para armazenar a string com 20 caracteres de espaço
-
-    // Se for temperatura, exibe com formato "Temp: X.X C"
-    snprintf(display_str, sizeof(display_str), "Temp: %.1f C", valor);
-
-    // Limpa a tela do display antes de atualizar com o novo valor
     ssd1306_clear(&disp);
-
-    // Desenha a string (temperatura ou umidade) na posição X=10, Y=24 com o tamanho do texto 2
-    ssd1306_draw_string(&disp, 10, 24, 2, display_str);
-
-    // Atualiza o display com as informações desenhadas
-    ssd1306_show(&disp); // Atualiza o conteúdo do display para mostrar a nova string
 }
 
-void draw_ball(ssd1306_t *disp, int x, int y) {
-    int size = 4; // ou 3, se quiser maior
-
-    for (int dx = 0; dx < size; dx++) {
-        for (int dy = 0; dy < size; dy++) {
-            ssd1306_draw_pixel(disp, x + dx, y + dy);
-        }
-    }
+void draw_ball(ssd1306_t *disp, int x, int y)
+{
+    char buffer[4];
+    snprintf(buffer, sizeof(buffer), "%d", counter);
+    ssd1306_draw_string(disp, x, y, 1, buffer);
 }
 
-
-void draw_bins(ssd1306_t *disp, uint8_t *bins, int num_bins, int max_height) {
+void draw_bins(ssd1306_t *disp, uint8_t *bins, int num_bins, int max_height)
+{
     ssd1306_clear(disp);
 
-    for (int i = 0; i < num_bins; i++) {
+    for (int i = 0; i < num_bins; i++)
+    {
         int height = bins[i];
         if (height > max_height)
             height = max_height;
 
-        int x_start = i * (SSD1306_WIDTH / num_bins);
-        int bar_width = (SSD1306_WIDTH / num_bins) - 1;
+        int x_start = i * (disp->width / num_bins);
+        int bar_width = (disp->width / num_bins) - 1;
 
-        for (int h = 0; h < height; h++) {
-            int y = SSD1306_HEIGHT - 1 - h;
-            for (int w = 0; w < bar_width; w++) {
+        for (int h = 0; h < height; h++)
+        {
+            int y = disp->height - 1 - h;
+            for (int w = 0; w < bar_width; w++)
+            {
                 ssd1306_draw_pixel(disp, x_start + w, y);
             }
         }
+        char bin_count_str[4];
+        snprintf(bin_count_str, sizeof(bin_count_str), "%d", bins[i]);
+
+        // Centraliza o texto horizontalmente na barra
+        int text_x = x_start + (bar_width / 2) - 3; // 3 é ajuste visual
+        int text_y = disp->height - height - 10;    // Acima da barra
+
+        // Evita desenhar fora da tela
+        if (text_y < 0)
+            text_y = 0;
+
+        if (bins[i] != 0)
+            ssd1306_draw_string(disp, text_x, text_y, 1, bin_count_str);
     }
 
     ssd1306_show(disp);
 }
 
-int get_x_from_pos(int pos)
+int get_x_from_pos(ssd1306_t *disp, int pos)
 {
-    return pos * (SSD1306_WIDTH / NUM_BINS) + (SSD1306_WIDTH / NUM_BINS) / 2;
+    int bin_width = disp->width / NUM_BINS;
+    return pos * bin_width + bin_width / 2;
 }
 
-void animate_ball(ssd1306_t *disp, int *final_bin, uint8_t *bins) {
+void animate_ball(ssd1306_t *disp, int *final_bin, uint8_t *bins)
+{
     int pos = NUM_BINS / 2;
 
-    for (int level = 0; level < NUM_LEVELS; level++) {
+    for (int level = 0; level < NUM_LEVELS; level++)
+    {
         if (rand() % 2 == 0)
             pos++;
         else
@@ -92,15 +85,18 @@ void animate_ball(ssd1306_t *disp, int *final_bin, uint8_t *bins) {
             pos = NUM_BINS - 1;
 
         // Calcula posição da bolinha
-        int x = get_x_from_pos(pos);
-        int y = level * (SSD1306_HEIGHT / (NUM_LEVELS + 1));
+        int x = get_x_from_pos(disp, pos);
+        int y = level * (disp->height / (NUM_LEVELS + 1));
 
-        // Verifica se y atingiu ou ultrapassou a barra atual
-        int bar_height = bins[pos];
-        int bar_y = SSD1306_HEIGHT - bar_height;
-
-        if (y >= bar_y) {
-            break; // A bolinha “tocou” a barra
+        // Modo realista: parar quando colidir com barra
+        if (DISABLE_COLLISION_DETECTION)
+        {
+            int bar_height = bins[pos];
+            int bar_y = disp->height - bar_height;
+            if (y >= bar_y)
+            {
+                break;
+            }
         }
 
         // Redesenha a tela
@@ -111,7 +107,6 @@ void animate_ball(ssd1306_t *disp, int *final_bin, uint8_t *bins) {
 
         sleep_ms(100);
     }
-
     *final_bin = pos;
+    counter++;
 }
-

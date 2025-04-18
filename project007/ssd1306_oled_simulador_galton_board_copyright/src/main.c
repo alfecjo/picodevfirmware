@@ -9,15 +9,14 @@
 #include "i2c_setup.h"
 #include "oled_setup.h"
 
-#define NUM_BINS 16
-#define MAX_HEIGHT 50
-
 int main()
 {
     stdio_init_all();
     setup_i2c();
     setup_oled();
-    srand(time(NULL));
+    
+    uint32_t seed = to_us_since_boot(get_absolute_time());
+    srand(seed);
 
     uint8_t bins[NUM_BINS] = {0};
 
