@@ -4,7 +4,7 @@
 int main() {
     stdio_init_all();
 
-    ContadorApp app(5, 6); // GPIOs dos botões A e B
+    ContadorApp app(5, 6);
     app.init();
 
     while (true) {

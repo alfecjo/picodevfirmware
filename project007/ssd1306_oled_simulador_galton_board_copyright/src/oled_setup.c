@@ -1,14 +1,13 @@
 #include <stdlib.h>
-
 #include <stdio.h>
-
 #include "ssd1306.h"
 #include "oled_setup.h"
 
-ssd1306_t disp;
+ssd1306_t disp; // Display object
 
-static int counter = 0;
+static int counter = 0; // Animation counter
 
+// Initialize the display
 void setup_oled(void)
 {
     disp.external_vcc = false;
@@ -16,6 +15,7 @@ void setup_oled(void)
     ssd1306_clear(&disp);
 }
 
+// Draw a ball at the specified position
 void draw_ball(ssd1306_t *disp, int x, int y)
 {
     char buffer[4];
@@ -23,6 +23,7 @@ void draw_ball(ssd1306_t *disp, int x, int y)
     ssd1306_draw_string(disp, x, y, 1, buffer);
 }
 
+// Draw bars representing bins
 void draw_bins(ssd1306_t *disp, uint8_t *bins, int num_bins, int max_height)
 {
     ssd1306_clear(disp);
@@ -47,11 +48,9 @@ void draw_bins(ssd1306_t *disp, uint8_t *bins, int num_bins, int max_height)
         char bin_count_str[4];
         snprintf(bin_count_str, sizeof(bin_count_str), "%d", bins[i]);
 
-        // Centraliza o texto horizontalmente na barra
-        int text_x = x_start + (bar_width / 2) - 3; // 3 é ajuste visual
-        int text_y = disp->height - height - 10;    // Acima da barra
+        int text_x = x_start + (bar_width / 2) - 3;
+        int text_y = disp->height - height - 10;
 
-        // Evita desenhar fora da tela
         if (text_y < 0)
             text_y = 0;
 
@@ -62,12 +61,14 @@ void draw_bins(ssd1306_t *disp, uint8_t *bins, int num_bins, int max_height)
     ssd1306_show(disp);
 }
 
+// Get x position of a bin
 int get_x_from_pos(ssd1306_t *disp, int pos)
 {
     int bin_width = disp->width / NUM_BINS;
     return pos * bin_width + bin_width / 2;
 }
 
+// Animate a ball bouncing in the bins
 void animate_ball(ssd1306_t *disp, int *final_bin, uint8_t *bins)
 {
     int pos = NUM_BINS / 2;
@@ -84,11 +85,11 @@ void animate_ball(ssd1306_t *disp, int *final_bin, uint8_t *bins)
         if (pos >= NUM_BINS)
             pos = NUM_BINS - 1;
 
-        // Calcula posição da bolinha
+        // Calculate ball position
         int x = get_x_from_pos(disp, pos);
         int y = level * (disp->height / (NUM_LEVELS + 1));
 
-        // Modo realista: parar quando colidir com barra
+        // Stop when collision with bar (if collision detection is enabled)
         if (DISABLE_COLLISION_DETECTION)
         {
             int bar_height = bins[pos];
@@ -99,7 +100,7 @@ void animate_ball(ssd1306_t *disp, int *final_bin, uint8_t *bins)
             }
         }
 
-        // Redesenha a tela
+        // Redraw screen
         ssd1306_clear(disp);
         draw_bins(disp, bins, NUM_BINS, MAX_HEIGHT);
         draw_ball(disp, x, y);

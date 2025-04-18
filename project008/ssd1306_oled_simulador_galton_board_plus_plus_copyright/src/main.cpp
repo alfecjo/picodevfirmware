@@ -9,11 +9,9 @@ extern "C"
 #include "hardware/gpio.h"
 }
 
+#include "config.hpp"
 #include "I2c_setup.hpp"
 #include "Oled_setup.hpp"
-
-#define NUM_BINS 16
-#define MAX_HEIGHT 50
 
 int main()
 {
@@ -23,7 +21,9 @@ int main()
     stdio_init_all();
     i2c_setup.setup_i2c();
     oled_setup.setup_oled();
-    srand(time(NULL));
+
+    uint32_t seed = to_us_since_boot(get_absolute_time());
+    srand(seed);
 
     uint8_t bins[NUM_BINS] = {0};
 
@@ -32,10 +32,8 @@ int main()
         int final_bin = 0;
         oled_setup.animate_ball(&disp, &final_bin, bins);
 
-        // Atualiza bin
         bins[final_bin]++;
-
-        // Redesenha histograma por cima
+        
         oled_setup.draw_bins(&disp, bins, NUM_BINS, MAX_HEIGHT);
 
         sleep_ms(300);
