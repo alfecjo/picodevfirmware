@@ -131,7 +131,7 @@ To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](htt
 
 
 ## 👤 Author
-**Antonio Almeida - Hbr Campinas**
+**Antonio Almeida - Student Hbr Campinas**
 
 Have suggestions or found a bug?
 Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/issues). 🚀
