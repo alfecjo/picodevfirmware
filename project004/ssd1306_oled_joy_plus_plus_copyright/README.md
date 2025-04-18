@@ -99,4 +99,4 @@ This section illustrates the hardware used in this project to help replicate the
 
 ### 🖼️ Hardware Setup
 
-![Final tested project](./assets/20250412_174721.jpg)
+![Final tested project](./assets/project004.gif)
