@@ -9,6 +9,64 @@ You may need to adjust the `CMakeLists.txt` file according to your development e
 
 ---
 
+# Analysis of Galton Board Results
+
+## Introduction
+
+The Galton Board, also known as a Quincunx, is a mechanical device used to demonstrate the central limit theorem and the binomial distribution. It consists of a vertical board with pegs arranged in a triangular grid. As balls drop from the top and bounce left or right at each peg, they accumulate in bins at the bottom.
+
+## Statistical Behavior
+
+Each ball undergoes a series of independent binary decisions (left or right), creating a distribution of outcomes that approximates a binomial distribution. As the number of rows increases, this distribution tends to resemble a **normal (Gaussian) distribution**, due to the central limit theorem.
+
+## Key Observations
+
+- The **middle bins** accumulate the most balls.
+- **Outer bins** (extremes) collect fewer balls.
+- The distribution is **symmetrical**, assuming the board is not biased and each deflection has a 50/50 probability.
+- The resulting shape is **bell-curved**, like a histogram of a normal distribution.
+
+## Mathematical Model
+
+For `n` levels (rows of pegs), and assuming each bounce has a 50% chance to go left or right, the probability of a ball landing in bin `k` (where `k` ranges from `0` to `n`) follows the binomial distribution:
+
+![Galton Board - equação 01](./assets/formula1.jpg)
+
+Where `C(n, k)` is the binomial coefficient:
+
+![Galton Board - equação 01](./assets/formula2.jpg)
+
+
+## Simulation Results (Example)
+
+If a simulation drops 1000 balls with 10 rows of pegs, a possible result might be:
+
+| Bin Index | Balls |
+|-----------|-------|
+| 0         | 2     |
+| 1         | 13    |
+| 2         | 55    |
+| 3         | 125   |
+| 4         | 210   |
+| 5         | 240   |
+| 6         | 210   |
+| 7         | 125   |
+| 8         | 55    |
+| 9         | 13    |
+| 10        | 2     |
+
+This illustrates a distribution very close to the expected binomial shape.
+
+## Conclusion
+
+The Galton Board provides an intuitive and visual representation of fundamental statistical principles such as:
+
+- **The binomial distribution**
+- **The normal distribution as a limit**
+- **Randomness and probability**
+  
+It is a powerful educational tool that shows how complex distributions emerge from simple, repeated random events.
+
 # 🧠 Project – **Galton Board Simulator** with SSD1306 OLED Display
 
 ## 🖥️ Platform
