@@ -36,7 +36,6 @@ Where `C(n, k)` is the binomial coefficient:
 
 ![Galton Board - equação 01](./assets/formula2.jpg)
 
-
 ## Simulation Results (Example)
 
 If a simulation drops 1000 balls with 10 rows of pegs, a possible result might be:
@@ -67,7 +66,7 @@ The Galton Board provides an intuitive and visual representation of fundamental 
   
 It is a powerful educational tool that shows how complex distributions emerge from simple, repeated random events.
 
-# 🧠 Project – **Galton Board Simulator** with SSD1306 OLED Display
+---
 
 ## 🖥️ Platform
 Raspberry Pi Pico / [BitDogLab](https://github.com/BitDogLab)
