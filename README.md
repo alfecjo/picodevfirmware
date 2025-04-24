@@ -1,15 +1,12 @@
+[![HBr](./hbr.jpg)](https://hardware.org.br/)
 
 # 🚀 EmbarcaTech 2025 - Phase I 
-
-[![HBr](./hbr.jpg)](https://hardware.org.br/)
 
 ## 📚 Objective
 This repository presents the initial Embedded Systems projects developed during EmbarcaTech 2025 - Phase I at HBr Campinas. It includes foundational code, tests, basic documentation, and essential resources that laid the groundwork for the advanced implementations in Phase II.
 [EmbarcaTech 2025 - Phase I](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025_fase_1)
 
 # 🚀 EmbarcaTech 2025 - Phase II
-
-[![HBr - Serviços](./hbr.jpg)](https://hardware.org.br/servicos/)
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://alfecjo.github.io/antonio_almeida_embarcatech_HBr_2025/)
 
@@ -151,7 +148,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 ## 👤 Author
 **[Antonio Almeida](https://alfecjo.github.io/) Student**
 
-[![HBr](./hbr.jpg)](https://hardware.org.br/)
+[![HBr - Serviços](./hbr.jpg)](https://hardware.org.br/servicos/)
 
 Have suggestions or found a bug?
 Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/issues). 🚀
