@@ -1,5 +1,9 @@
 
-# 🚀 EmbarcaTech 2025 - Phase I - HBr Campinas Student
+# 🚀 EmbarcaTech 2025 - Phase I 
+
+![HBr](./assets/hbr.jpg)
+
+---
 
 ## 📚 Objective
 This repository presents the initial Embedded Systems projects developed during EmbarcaTech 2025 - Phase I at HBr Campinas. It includes foundational code, tests, basic documentation, and essential resources that laid the groundwork for the advanced implementations in Phase II.
