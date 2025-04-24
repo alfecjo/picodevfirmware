@@ -118,6 +118,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 
 ## 👤 Author
 **[Antonio Almeida](https://alfecjo.github.io/)**
+
 [![HBr](./assets/hbr.jpg)](https://hardware.org.br/) Student
 
 Have suggestions or found a bug?
