@@ -130,6 +130,8 @@ To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](htt
 
 > 💡 **Tip:** This firmware is part of the current project and can eventually be tested or integrated with the [BitDogLab](https://github.com/BitDogLab) environment as needed.
 
+---
+
 ## 🐳 Run in a Containerized Environment
 
 Tired of manual setups and toolchain installations? Want to skip the setup and run the projects in a ready-to-use development environment?
