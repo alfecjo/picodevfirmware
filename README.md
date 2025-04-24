@@ -139,9 +139,6 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 👉 Visit the repository and get started now:  
 [📦 rp2040-container - BitDogLab Environment](https://github.com/alfecjo/rp2040-container)
 
-```bash
-
-
 ## 👤 Author
 **Antonio Almeida | HBr Campinas Student**
 
