@@ -1,8 +1,20 @@
+[![HBr](./hbr.jpg)](https://hardware.org.br/)
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://alfecjo.github.io/antonio_almeida_embarcatech_HBr_2025/)
+
+# 🚀 EmbarcaTech 2025 - Phase I 
+
+## 📚 Objective
+This repository presents the initial Embedded Systems projects developed during EmbarcaTech 2025 - Phase I at HBr Campinas. It includes foundational code, tests, basic documentation, and essential resources that laid the groundwork for the advanced implementations in Phase II.
+
+---
+
 ### Observação importante:
 Pelo fato da instalação e configuração de compilação do CMake ser otimizada para
 mínima modificação, todos os exemplos desta lista precisarão ser adequados a configuração da máquina
 onde forem ser executados. Sem essas alterações o código pode não apresentar o comportamento desejado!
 ___
+
 ```cmake
 cmake_minimum_required(VERSION 3.12)
 
