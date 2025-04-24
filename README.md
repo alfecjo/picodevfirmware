@@ -147,7 +147,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 ## 👤 Author
 **[Antonio Almeida](https://alfecjo.github.io/) Student**
 
-![HBr](./assets/hbr.jpg)
+![HBr](./hbr.jpg)
 
 ---
 
