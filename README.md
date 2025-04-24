@@ -129,6 +129,18 @@ To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](htt
 
 > 💡 **Tip:** This firmware is part of the current project and can eventually be tested or integrated with the [BitDogLab](https://github.com/BitDogLab) environment as needed.
 
+## 🐳 Run in a Containerized Environment
+
+Want to skip the setup and run the projects in a ready-to-use development environment?
+
+🚀 **Launch all projects using our custom Docker image with full Pico SDK support!**  
+The image includes build tools, dependencies, and sample projects — all pre-configured.
+
+👉 Visit the repository and get started now:  
+[📦 rp2040-container - BitDogLab Environment](https://github.com/alfecjo/rp2040-container)
+
+```bash
+
 
 ## 👤 Author
 **Antonio Almeida | HBr Campinas Student**
