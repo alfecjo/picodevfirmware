@@ -48,6 +48,22 @@ This section illustrates the hardware used in this project to help replicate the
 
 ### 📝 **The code was written in C and tested using the [BitDogLab](https://github.com/BitDogLab) platform.**
 
+### 🔧 **Status**
+
+✅ Tested – Working properly 🟢
+
+---
+
+### 📋 **Checklist of Test Cases That Supported Project Development**
+
+- 🟢 Test 001 – Success! Time-based software debounce implemented.
+
+---
+
+### 🖼️ Hardware Setup
+
+![Final tested project](./assets/project001.gif)
+
 ---
 
 ## 🐳 Run in a Containerized Environment
@@ -64,19 +80,3 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
 
 ---
-
-### 🔧 **Status**
-
-✅ Tested – Working properly 🟢
-
----
-
-### 📋 **Checklist of Test Cases That Supported Project Development**
-
-- 🟢 Test 001 – Success! Time-based software debounce implemented.
-
----
-
-### 🖼️ Hardware Setup
-
-![Final tested project](./assets/project001.gif)
