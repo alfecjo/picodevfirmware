@@ -142,7 +142,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 👉 Visit the repository and get started now:  
 - [📦 rp2040-container - BitDogLab Environment](https://github.com/alfecjo/rp2040-container)
 
-- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and BitDogLab projects instantly — no manual installations needed!
+- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
 - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
 
 ---
