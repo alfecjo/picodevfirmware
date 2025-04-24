@@ -1,7 +1,7 @@
 
 # 🚀 EmbarcaTech 2025 - Phase I 
 
-![HBr](./assets/hbr.jpg)
+![HBr](./hbr.jpg)
 
 ---
 
