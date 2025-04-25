@@ -176,7 +176,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 
 👇 **Visit the repository and get started now:**
 
--  **[![PicoDevBox](./pdb-logo.png)](https://github.com/BitDogLab)**
+-  **![PicoDevBox](./pdb-logo.png)(https://github.com/BitDogLab)**
   
    - 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
    - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
