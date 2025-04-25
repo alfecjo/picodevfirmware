@@ -99,8 +99,13 @@ Tired of manual setups and toolchain installations? Want to skip the setup and r
 🚀 **Launch all projects using our custom Docker image with full Pico SDK support!**  
 The image includes build tools, dependencies, and sample projects — all pre-configured.
 
-👉 Visit the repository and get started now:  
-[📦 rp2040-container - BitDogLab Environment](https://github.com/alfecjo/rp2040-container)
+👇 Visit the repository and get started now:  
+
+<p align="center">
+  <a href="https://github.com/alfecjo/rp2040-container">
+    <img src="https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/raw/main/picodevbox.png" alt="PicoDevBox" width="200"/>
+  </a>
+</p>
 
 - 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
 - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
