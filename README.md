@@ -175,7 +175,9 @@ To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](htt
 The image includes build tools, dependencies, and sample projects — all pre-configured.
 
 👇 **Visit the repository and get started now:**
-- [![rp2040-container - BitDogLab Environment](https://img.shields.io/badge/rp2040--container-BitDogLab%20Environment-blue?style=for-the-badge&logo=github)](https://github.com/alfecjo/rp2040-container)
+
+-  **[![PicoDevBox](./pdb.png)](https://github.com/BitDogLab)**
+  
    - 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
    - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
 
