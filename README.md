@@ -91,14 +91,48 @@ To learn more about a project, refer to its individual `README.md` file located 
 ├── LICENSE
 ```
 
-- [Project001 - ssd1306_oled_copyright](./project001/ssd1306_oled_copyright/)
-- [Project002 - ssd1306_oled__plus_plus_copyright](./project002/ssd1306_oled__plus_plus_copyright/)
-- [Project003 - ssd1306_oled_joy_copyright](./project003/ssd1306_oled_joy_copyright/)
-- [Project004 - ssd1306_oled_joy_plus_plus_copyright](./project004/ssd1306_oled_joy_plus_plus_copyright/)
-- [Project005 - ssd1306_oled_temp_int_copyright](./project005/ssd1306_oled_temp_int_copyright/)
-- [Project006 - ssd1306_oled_temp_int_plus_plus_copyright](./project006/ssd1306_oled_temp_int_plus_plus_copyright/)
-- [Project007 - ssd1306_oled_simulador_galton_board_copyright](./project007/ssd1306_oled_simulador_galton_board_copyright/)
-- [Project008 - ssd1306_oled_simulador_galton_board_plus_plus_copyright](./project008/ssd1306_oled_simulador_galton_board_plus_plus_copyright/)
+## 💼 EmbarcaTech 2025 – Projetos Modulares com Raspberry Pi Pico
+
+Exploração prática de sistemas embarcados com sensores, simulações e displays gráficos usando C/C++ no ambiente Bitdoglab.
+
+---
+
+### 📦 Projeto 000 — Fase Inicial  
+[![Projeto 000](https://img.shields.io/badge/Projeto_000-Phase_I-black?style=for-the-badge&logo=github)](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/tree/main/project000)
+
+---
+
+### 📘 Projeto 001 — Display OLED Básico  
+[![Projeto 001](https://img.shields.io/badge/Projeto_001-ssd1306_oled-blue?style=for-the-badge)](./project001/ssd1306_oled_copyright/)
+
+### 📘 Projeto 002 — OLED Plus Plus  
+[![Projeto 002](https://img.shields.io/badge/Projeto_002-oled__plus_plus-cyan?style=for-the-badge)](./project002/ssd1306_oled__plus_plus_copyright/)
+
+---
+
+### 🎮 Projeto 003 — OLED com Joystick  
+[![Projeto 003](https://img.shields.io/badge/Projeto_003-oled_joy-green?style=for-the-badge)](./project003/ssd1306_oled_joy_copyright/)
+
+### 🎮 Projeto 004 — OLED Joystick Plus Plus  
+[![Projeto 004](https://img.shields.io/badge/Projeto_004-oled_joy_plus_plus-limegreen?style=for-the-badge)](./project004/ssd1306_oled_joy_plus_plus_copyright/)
+
+---
+
+### 🌡️ Projeto 005 — Temperatura Interna no OLED  
+[![Projeto 005](https://img.shields.io/badge/Projeto_005-temp_int-orange?style=for-the-badge)](./project005/ssd1306_oled_temp_int_copyright/)
+
+### 🌡️ Projeto 006 — Temp. Interna Plus Plus  
+[![Projeto 006](https://img.shields.io/badge/Projeto_006-temp_int_plus_plus-gold?style=for-the-badge)](./project006/ssd1306_oled_temp_int_plus_plus_copyright/)
+
+---
+
+### 🎲 Projeto 007 — Simulador Galton Board  
+[![Projeto 007](https://img.shields.io/badge/Projeto_007-galton_board-red?style=for-the-badge)](./project007/ssd1306_oled_simulador_galton_board_copyright/)
+
+### 🎲 Projeto 008 — Galton Board Plus Plus  
+[![Projeto 008](https://img.shields.io/badge/Projeto_008-galton_board_plus_plus-darkred?style=for-the-badge)](./project008/ssd1306_oled_simulador_galton_board_plus_plus_copyright/)
+
+---
 
 ## 🛠️ Requirements and Setup
 To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](https://github.com/BitDogLab) environment, follow these steps:
