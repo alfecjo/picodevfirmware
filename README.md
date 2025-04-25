@@ -176,8 +176,12 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 
 👇 **Visit the repository and get started now:**
 
-**[![PicoDevBox](./PDB-logo.png)](https://github.com/alfecjo/rp2040-container)**
-  
+<p align="center">
+  <a href="https://github.com/alfecjo/rp2040-container">
+    <img src="./img/picodevbox.png" alt="PicoDevBox" width="200"/>
+  </a>
+</p>
+
    - 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
    - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
 
