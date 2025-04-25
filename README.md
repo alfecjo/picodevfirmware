@@ -23,6 +23,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 ## 📂 Repository Structure
 ```
 /projects
+│── /project000
 │── /project001
 │   │── /ssd1306_oled_copyright
 │       │── assets               # Images, Videos, and Diagrams
