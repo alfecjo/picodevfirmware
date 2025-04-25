@@ -178,7 +178,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 
 <p align="center">
   <a href="https://github.com/alfecjo/rp2040-container">
-    <img src="./img/picodevbox.png" alt="PicoDevBox" width="200"/>
+    <img src="./picodevbox.png" alt="PicoDevBox" width="200"/>
   </a>
 </p>
 
