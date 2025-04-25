@@ -226,7 +226,7 @@ ___
 
 <p align="center">
   <a href="https://github.com/alfecjo/rp2040-container">
-    <img src="./picodevbox.png" alt="PicoDevBox" width="200"/>
+    <img src="[./picodevbox.png](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/blob/main/picodevbox.png)" alt="PicoDevBox" width="200"/>
   </a>
 </p>
 
