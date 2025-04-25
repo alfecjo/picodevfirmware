@@ -93,7 +93,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 
 ## 💼 EmbarcaTech 2025 – Modular Projects with Raspberry Pi Pico
 
-A hands-on exploration of embedded systems using sensors, simulations, and graphical displays programmed in C/C++ and tested with Bitdoglab.
+A hands-on exploration of embedded systems using sensors, simulations, and graphical displays programmed in C/C++ and tested with [BitDogLab](https://github.com/BitDogLab) environment.
 
 ---
 
