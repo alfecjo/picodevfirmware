@@ -100,9 +100,8 @@ ___
 
 ### 📌 Description
 
-Este teste inicial consiste em fazer um Botão A que aciona o Buzzer A utilizando a Raspberry Pi Pico.
-
-O código foi desenvolvido em C/C++ e testado no ambiente Bitdoglab.
+- His initial test consists of using Button A and Button B to activate the RGB LED when pressed, using the Raspberry Pi Pico.
+- The code was developed in C/C++ and tested in the Bitdoglab environment.
 
 ### 📝 Document the dependencies and environment configurations.
 
