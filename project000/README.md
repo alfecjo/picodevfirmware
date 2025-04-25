@@ -222,5 +222,7 @@ ___
 ✔ **🟢 Test 0006 - dht22_bdl**  
 ✔ **🟢 Test 0007 - goertzel_bdl**  
 
+---
+
 - ## Return to the main page
   [![HBr 2025 Project](https://img.shields.io/badge/HBr_2025_Project-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025)
