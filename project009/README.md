@@ -7,16 +7,16 @@ It is organized into distinct layers: **drivers**, **HAL (Hardware Abstraction L
 
 ```
 led_toggle/
-├── app/
-│   └── main.c
-├── drivers/
-│   └── led_embutido.c
-├── hal/
-│   └── hal_led.c
-├── include/
-│   ├── led_embutido.h
-│   └── hal_led.h
-└── CMakeLists.txt
+   ├── app/
+   │   └── main.c
+   ├── drivers/
+   │   └── led_embutido.c
+   ├── hal/
+   │   └── hal_led.c
+   ├── include/
+   │   ├── led_embutido.h
+   │   └── hal_led.h
+   └── CMakeLists.txt
 ```
 
 ### 📋 Project Overview
