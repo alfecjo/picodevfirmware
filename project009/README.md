@@ -5,6 +5,7 @@ It is organized into distinct layers: **drivers**, **HAL (Hardware Abstraction L
 
 ## 📁 Project Structure
 
+```
 project/
 ├── app/
 │   └── main.c
@@ -16,6 +17,7 @@ project/
 │   ├── led_embutido.h
 │   └── hal_led.h
 └── CMakeLists.txt
+```
 
 ## 📋 Project Overview
 
