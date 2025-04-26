@@ -6,7 +6,7 @@ It is organized into distinct layers: **drivers**, **HAL (Hardware Abstraction L
 ## 📁 Project Structure
 
 ```
-project/
+led_toggle/
 ├── app/
 │   └── main.c
 ├── drivers/
