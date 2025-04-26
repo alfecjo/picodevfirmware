@@ -59,9 +59,6 @@ Configures and builds the entire project.
 
 ![HBr](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/blob/main/hbr.jpg)
 
-Have suggestions or found a bug?
-Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/issues). 🚀
-
 ---
 
 - ## Return to the main page
