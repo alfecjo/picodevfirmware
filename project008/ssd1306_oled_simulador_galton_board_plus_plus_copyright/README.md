@@ -12,7 +12,7 @@ You may need to adapt your CMakeLists.txt or build system based on your specific
 # 🧠 Project – **Galton Board Simulator** with SSD1306 OLED Display
 
 ## 🖥️ Platform
-Raspberry Pi Pico / [BitDogLab](https://github.com/BitDogLab)
+Raspberry Pi Pico / [BitDogLab](https://github.com/BitDogLab/BitDogLab)
 
 ## 📦 Description
 The **Galton Board Simulator** is a modular and interactive application that simulates the physics behind a Galton Board using an SSD1306 OLED display. The simulation demonstrates the fall of balls in a binomial distribution and visually represents it through dynamically updated histogram bars.
@@ -116,7 +116,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
   </a>
 </p>
 
-- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
+- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab/BitDogLab) projects instantly — no manual installations needed!
 - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
 
 ---
