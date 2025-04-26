@@ -94,7 +94,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 
 ## 💼 EmbarcaTech 2025 – Modular Projects with Raspberry Pi Pico W...
 
-***A hands-on exploration of embedded systems using sensors, simulations, and graphical displays programmed in C/C++ and tested with [BitDogLab](https://github.com/BitDogLab) environment.***
+***A hands-on exploration of embedded systems using sensors, simulations, and graphical displays programmed in C/C++ and tested with [BitDogLab](https://github.com/BitDogLab/BitDogLab) environment.***
 
 ---
 
@@ -136,7 +136,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 ---
 
 ## 🛠️ Requirements and Setup
-To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](https://github.com/BitDogLab) environment, follow these steps:
+To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](https://github.com/BitDogLab/BitDogLab) environment, follow these steps:
 
 1. **Install the Pico SDK** following the official Raspberry Pi instructions.
 
@@ -163,7 +163,7 @@ To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](htt
 3. **Copy** the compiled `.uf2` firmware file to the mounted drive.
 4. Once the transfer is complete, the Pico W will automatically reboot and begin running the new firmware.
 
-> 💡 **Tip:** This firmware is part of the current project and can eventually be tested or integrated with the [BitDogLab](https://github.com/BitDogLab) environment as needed.
+> 💡 **Tip:** This firmware is part of the current project and can eventually be tested or integrated with the [BitDogLab](https://github.com/BitDogLab/BitDogLab) environment as needed.
 
 ---
 
@@ -182,7 +182,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
   </a>
 </p>
 
-   - 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
+   - 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab/BitDogLab) projects instantly — no manual installations needed!
    - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
 
 ---
