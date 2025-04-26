@@ -12,7 +12,7 @@ You may need to adjust the `CMakeLists.txt` file according to your development e
 # 🧠 Project006 – Hybrid C/C++ Embedded App with OOP Enhancements
 
 ## 🖥️ Platform
-Raspberry Pi Pico W / [BitDogLab](https://github.com/BitDogLab)
+Raspberry Pi Pico W / [BitDogLab](https://github.com/BitDogLab/BitDogLab)
 
 ## 📦 Description
 A modular and object-oriented embedded application designed to:
@@ -55,13 +55,13 @@ This section illustrates the hardware used in this project to help replicate the
 
 ### 🔧 Components Used
 
-- Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab)
+- Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab/BitDogLab)
 - SSD1306 OLED Display (I2C)
 - USB cable (for power and programming)
 
 ---
 
-### 📝 **The code was written in Hybrid C/C++ and tested using the [BitDogLab](https://github.com/BitDogLab) platform.**
+### 📝 **The code was written in Hybrid C/C++ and tested using the [BitDogLab](https://github.com/BitDogLab/BitDogLab) platform.**
 
 ---
 
@@ -98,7 +98,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
   </a>
 </p>
 
-- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
+- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab/BitDogLab) projects instantly — no manual installations needed!
 - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
 
 ---
