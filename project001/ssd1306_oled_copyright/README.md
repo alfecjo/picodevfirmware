@@ -38,7 +38,7 @@ This section illustrates the hardware used in this project to help replicate the
 
 ### 🔧 Components Used
 
-- Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab)
+- Raspberry Pi Pico W or [BitDogLab](https://github.com/BitDogLab/BitDogLab)
 - SSD1306 OLED Display (I2C)
 - Push buttons (x2)
 - Breadboard and jumper wires
@@ -46,7 +46,7 @@ This section illustrates the hardware used in this project to help replicate the
 
 ---
 
-### 📝 **The code was written in C and tested using the [BitDogLab](https://github.com/BitDogLab) platform.**
+### 📝 **The code was written in C and tested using the [BitDogLab](https://github.com/BitDogLab/BitDogLab) platform.**
 
 ### 🔧 **Status**
 
@@ -81,7 +81,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
   </a>
 </p>
 
-- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab) projects instantly — no manual installations needed!
+- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab/BitDogLab) projects instantly — no manual installations needed!
 - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
 
 ---
