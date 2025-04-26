@@ -19,9 +19,9 @@ project/
 └── CMakeLists.txt
 ```
 
-## 📋 Project Overview
+### 📋 Project Overview
 
-- 🗂️ Directory Structure
+## 🗂️ Directory Structure
 
 - drivers/:
 Direct access to hardware (led_embutido.c).
