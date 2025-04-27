@@ -191,7 +191,7 @@ To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](htt
 🚀 **Launch all projects using our custom Docker image with full Pico SDK support!**  
 The image includes build tools, dependencies, and sample projects — all pre-configured.
 
-📈 **Visit the repository and get started now:** 👇
+📈 **Visit the repository and get started now:**                         👇
 
 <p align="center">
   <a href="https://github.com/alfecjo/rp2040-container">
