@@ -167,7 +167,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 ---
 
 ### 🌡️ Project 010 — Test Convert Temperature   
-[![Project 005](https://img.shields.io/badge/Project_005-temp_int-orange?style=for-the-badge)](./project010/adc_convert/)
+[![Project 010](https://img.shields.io/badge/Project_010-temp_int-orange?style=for-the-badge)](./project010/adc_convert/)
 
 ---
 
