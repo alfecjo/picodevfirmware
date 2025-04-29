@@ -166,7 +166,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 
 ---
 
-### 🌡️ Project 010 — ADC Convert Temperature   
+### 🌡️ Project 010 — ADC Temperature Conversion with Unity Test  
 [![Project 010](https://img.shields.io/badge/Project_010-temp_convert-yellow?style=for-the-badge)](./project010/adc_convert/)
 
 ---
