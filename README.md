@@ -24,6 +24,11 @@ To learn more about a project, refer to its individual `README.md` file located 
 ```
 /projects
 │── /project000 (Phase I)
+│   │── /ssd1306_oled_bdl_final
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Configuração do projeto
+│       └── README.md            # Project Overview
 │── /project001 (Phase II)
 │   │── /ssd1306_oled_copyright
 │       │── assets               # Images, Videos, and Diagrams
