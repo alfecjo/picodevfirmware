@@ -97,11 +97,13 @@ You can modify the following parameters in the code to adjust the simulation to 
 
 ### 🖼️ Hardware Setup
 
-![Galton Board](./assets/galton_plus_plus.gif)
+<p align="center">
+  <img src="./assets/galton_plus_plus.gif" alt="Final tested project" />
+</p>
 
 ---
 
-## 🐳 Run in a Containerized Environment
+## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized EnvironmentRun in a Containerized Environment
 
 Tired of manual setups and toolchain installations? Want to skip the setup and run the projects in a ready-to-use development environment?
 
