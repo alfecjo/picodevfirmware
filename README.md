@@ -114,7 +114,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── test/
 │       │   └── test_adc.c
 │       ├── unity/
-│       │   └── unity.c
+│       │   ├── unity.c
 │       │   ├── unity.h
 │       │   └── unity_internals.h
 │       ├── include/
