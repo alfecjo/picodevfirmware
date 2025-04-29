@@ -125,7 +125,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 ---
 
 ### 📦 Project 000 — Initial Phase  
-[![Project 000](https://img.shields.io/badge/Project_000-Phase_I-black?style=for-the-badge&logo=github)](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/tree/main/project000)
+[![Project 000](https://img.shields.io/badge/Project_000-Phase_I-black?style=for-the-badge&logo=github)](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/tree/main/project000/antonio_almeida_embarcatech_HBr_2025_fase_1)
 
 ---
 
