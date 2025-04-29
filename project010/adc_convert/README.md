@@ -89,11 +89,11 @@ make
 ## 📚 Reference
 
 - [RP2040 Datasheet– Temperature Sensor Section](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
-- [Unity Test Framework (C - by ThrowTheSwitch)](https://github.com/ThrowTheSwitch/Unity)
+- [Unity Test Framework (for C by ThrowTheSwitch)](https://github.com/ThrowTheSwitch/Unity)
 
 ---
 
-## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized EnvironmentRun in a Containerized 
+## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized Environment
 
 Tired of manual setups and toolchain installations? Want to skip the setup and run the projects in a ready-to-use development environment?
 
@@ -114,7 +114,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 ---
 
 ## 👤 Author
-**[Antonio Almeida](https://alfecjo.github.io/) Student**
+**[Antonio Almeida](https://alfecjo.github.io/) Embedded Systems Student**
 
 [![HBr](./assets/hbr.jpg)](https://hardware.org.br/)
 
