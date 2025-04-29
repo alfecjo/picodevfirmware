@@ -58,22 +58,6 @@ void test_adc_to_celsius_known_value(void) {
 
 ---
 
-## 🛠️ Build & Run Tests
-
-- To compile and run the test with Unity:
-
-
-```bash
-
-mkdir build && cd build
-cmake ..
-make
-./test_adc_temp
-
-```
-
----
-
 ## 🚀 Requirements
 
 - Raspberry Pi Pico W
@@ -92,6 +76,19 @@ make
 - [Unity Test Framework (for C by ThrowTheSwitch)](https://github.com/ThrowTheSwitch/Unity)
 
 ---
+
+## 🛠️ Build & Run Tests
+
+- To compile and run the test with Unity:
+
+```bash
+
+mkdir build && cd build
+cmake ..
+make
+./test_adc_temp
+
+```
 
 ## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized Environment
 
