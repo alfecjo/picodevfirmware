@@ -24,9 +24,9 @@ led_toggle/
    └── CMakeLists.txt
 ```
 
-### 📋 Project Overview
+## 📋 Project Overview
 
-## 🗂️ Directory Structure
+### 🗂️ Directory Structure
 
 - drivers/:
 Direct access to hardware (led_embutido.c).
@@ -43,7 +43,7 @@ Header files (.h) for drivers and HAL.
 - CMakeLists.txt:
 Configures and builds the entire project.
 
-## 🚀 Final Result
+### 🚀 Final Result
 
 - The onboard LED blinks every 500 ms.
 
@@ -53,7 +53,7 @@ Configures and builds the entire project.
 
  - drivers → HAL → app
 
-## 🎯 Key Takeaway
+### 🎯 Key Takeaway
 
 - Clear separation between hardware access and application logic improves code maintainability, scalability, and readability.
 
