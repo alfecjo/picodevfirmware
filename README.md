@@ -162,7 +162,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 ---
 
 ### 🎇 Project 009 — Led Toggle  
-[![Project 009](https://img.shields.io/badge/Project_009-led_toggle-darkblue?style=for-the-badge)](./project009/)
+[![Project 009](https://img.shields.io/badge/Project_009-led_toggle-darkblue?style=for-the-badge)](./project009/led_toggle)
 
 ---
 
