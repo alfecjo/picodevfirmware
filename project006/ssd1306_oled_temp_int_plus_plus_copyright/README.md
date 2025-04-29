@@ -79,11 +79,13 @@ This section illustrates the hardware used in this project to help replicate the
 
 ### 🖼️ Hardware Setup
 
-![Final tested project](./assets/project006.gif)
+<p align="center">
+  <img src="./assets/project006.gif" alt="Final tested project" />
+</p>
 
 ---
 
-## 🐳 Run in a Containerized Environment
+## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized Environment
 
 Tired of manual setups and toolchain installations? Want to skip the setup and run the projects in a ready-to-use development environment?
 
