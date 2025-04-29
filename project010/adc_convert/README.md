@@ -86,9 +86,9 @@ void test_adc_to_celsius_known_value(void) {
 mkdir build && cd build
 cmake ..
 make
-./test_adc_temp
+./test_adc
 
-test_adc_temp.c: test_adc_to_celsius_known_value:PASS
+test_adc.c: test_adc_to_celsius_known_value:PASS
 -----------------------
 1 Tests 0 Failures 0 Ignored
 OK
