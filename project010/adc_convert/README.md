@@ -3,7 +3,7 @@ You may need to adapt your CMakeLists.txt or build system based on your specific
 
 ---
 
-> **🚀 Assignment:** Implement a function to convert ADC readings to temperature (°C) using Raspberry Pi Pico W.
+> **🚀 Assignment:** Implement and test a function that converts ADC readings to temperature in Celsius (°C) using the Raspberry Pi Pico W, with unit testing powered by the Unity test framework.
 
 # 🌡️ ADC to Celsius Conversion on Raspberry Pi Pico W
 
