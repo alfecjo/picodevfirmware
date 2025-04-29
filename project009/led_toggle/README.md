@@ -1,4 +1,9 @@
-# Pico W LED Blink Modular Project
+## ⚠️ Important Note:
+You may need to adapt your CMakeLists.txt or build system based on your specific development environment. System-specific configurations (e.g., I2C bus, OLED wiring, SDK path) may require manual setup to ensure proper execution.
+
+---
+
+## Pico W LED Blink Modular Project
 
 This project demonstrates a modular architecture for controlling the onboard LED of the Raspberry Pi Pico W.  
 It is organized into distinct layers: **drivers**, **HAL (Hardware Abstraction Layer)**, and **application logic**.
