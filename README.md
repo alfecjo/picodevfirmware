@@ -31,7 +31,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── include/             # Headers (.h, .hpp)
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
-│       ├── README.md            # Project Overview
+│       └── README.md            # Project Overview
 │── /project002
 │   │── /ssd1306_oled__plus_plus_copyright
 │       │── assets               # Images, Videos, and Diagrams
@@ -39,7 +39,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── include/             # Headers (.h, .hpp)
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
-│       ├── README.md            # Project Overview
+│       └── README.md            # Project Overview
 │── /project003
 │   │── /ssd1306_oled_joy_copyright
 │       │── assets               # Images, Videos, and Diagrams
@@ -47,7 +47,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── include/             # Headers (.h, .hpp)
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
-│       ├── README.md            # Project Overview
+│       └── README.md            # Project Overview
 │── /project004
 │   │── /ssd1306_oled_joy_plus_plus_copyright
 │       │── assets               # Images, Videos, and Diagrams
@@ -55,7 +55,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── include/             # Headers (.h, .hpp)
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
-│       ├── README.md            # Project Overview
+│       └── README.md            # Project Overview
 │── /project005
 │   │── /ssd1306_oled_temp_int_copyright
 │       │── assets               # Images, Videos, and Diagrams
@@ -63,7 +63,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── include/             # Headers (.h, .hpp)
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
-│       ├── README.md            # Project Overview
+│       └── README.md            # Project Overview
 │── /project006
 │   │── /ssd1306_oled_temp_int_plus_plus_copyright
 │       │── assets               # Images, Videos, and Diagrams
@@ -71,7 +71,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── include/             # Headers (.h, .hpp)
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
-│       ├── README.md            # Project Overview
+│       └── README.md            # Project Overview
 │── /project007
 │   │── /ssd1306_oled_simulador_galton_board
 │       │── assets               # Images, Videos, and Diagrams
@@ -79,7 +79,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── include/             # Headers (.h, .hpp)
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
-│       ├── README.md            # Project Overview
+│       └── README.md            # Project Overview
 │── /project008
 │   │── /ssd1306_oled_simulador_galton_board_plus_plus_copyright
 │       │── assets               # Images, Videos, and Diagrams
@@ -87,7 +87,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── include/             # Headers (.h, .hpp)
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
-│       ├── README.md            # Project Overview
+│       └── README.md            # Project Overview
 │── /project009
 │   │── /led_toggle
 │       ├── app/
@@ -115,7 +115,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       │   └── adc.h
 │       └── CMakeLists.txt
 │── README.md  (General repository explanation)
-├── LICENSE
+└── LICENSE
 ```
 
 ## 💼 EmbarcaTech 2025 – Modular Projects with Raspberry Pi Pico W...
