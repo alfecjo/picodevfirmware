@@ -98,7 +98,7 @@ You can modify the following parameters in the code to adjust the simulation to 
 ### 🖼️ Hardware Setup
 
 <p align="center">
-  <img src="./assets/galton_plus_plus.gif" alt="Final tested project" />
+  <img src="./assets/project008.gif" alt="Final tested project" />
 </p>
 
 ---
