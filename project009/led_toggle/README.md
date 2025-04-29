@@ -3,7 +3,7 @@ You may need to adapt your CMakeLists.txt or build system based on your specific
 
 ---
 
-## Pico W LED Blink Modular Project
+## 🛠️ Pico W LED Blink Modular Project
 
 This project demonstrates a modular architecture for controlling the onboard LED of the Raspberry Pi Pico W.  
 It is organized into distinct layers: **drivers**, **HAL (Hardware Abstraction Layer)**, and **application logic**.
