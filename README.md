@@ -24,7 +24,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 ```
 /projects
 │── /project000 (Phase I)
-│── /project001
+│── /project001 (Phase II)
 │   │── /ssd1306_oled_copyright
 │       │── assets               # Images, Videos, and Diagrams
 │       │── docs                 # Technical Documentation
