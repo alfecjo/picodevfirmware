@@ -203,7 +203,7 @@ To compile and run the projects on the **Raspberry Pi Pico W** - [BitDogLab](htt
 
 ---
 
-## 🐳 Run in a Containerized Environment
+## 🐳 Run, Maintain, and Deploy the Application in a Docker Containerized Environment
 
 ***Tired of manual setups and toolchain installations? Want to skip the setup and run the projects in a ready-to-use development environment?***
 
