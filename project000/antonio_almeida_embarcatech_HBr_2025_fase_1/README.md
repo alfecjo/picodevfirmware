@@ -7,77 +7,10 @@ This repository presents the initial Embedded Systems projects developed during 
 
 ---
 
-### Important Note:
-Due to the CMake installation and build configuration being optimized for minimal modification, all examples in this list will need to be adjusted to match the configuration of the machine on which they are run. Without these adjustments, the code may not behave as expected!
-___
+## ⚠️ Important Note:
+You may need to adjust the `CMakeLists.txt` file according to your development environment, as each setup might differ based on the developer's system configuration. Without these adjustments, the code may not behave as expected.
 
-```cmake
-# Minimum CMake version required
-cmake_minimum_required(VERSION 3.12)
-
-# Pull in SDK (must be included before defining the project)
-include(pico_sdk_import.cmake)
-include(pico_extras_import_optional.cmake)
-
-# Define the project and supported languages
-project(pico_examples C CXX ASM)
-
-# Set C and C++ standards
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_CXX_STANDARD 17)
-
-# Check for minimum SDK version
-if (PICO_SDK_VERSION_STRING VERSION_LESS "2.1.0")
-    message(FATAL_ERROR "Raspberry Pi Pico SDK version 2.1.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}")
-endif()
-
-# Set project source path
-set(PICO_EXAMPLES_PATH ${PROJECT_SOURCE_DIR})
-
-# Configure timeout for USB debug output (optional)
-if (NOT DEFINED PICO_STDIO_USB_CONNECT_WAIT_TIMEOUT_MS)
-    set(PICO_STDIO_USB_CONNECT_WAIT_TIMEOUT_MS 3000)
-endif()
-
-# Initialize the Pico SDK
-pico_sdk_init()
-
-# Include helper for setting project URL
-include(example_auto_set_url.cmake)
-
-# Add the executable for the target test, like the example below
-add_executable(blink_bdl    
-    blink_bdl.c
-)
-
-# Include directories
-target_include_directories(ssd1306_oled_bdl
-    PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
-)
-
-# Link necessary libraries
-target_link_libraries(ssd1306_oled_bdl pico_stdlib hardware_i2c hardware_adc)
-
-# Enable USB and disable UART for standard I/O
-pico_enable_stdio_usb(ssd1306_oled_bdl 1)
-pico_enable_stdio_uart(ssd1306_oled_bdl 0)
-
-# Generate additional output files (map/bin/hex/uf2)
-pico_add_extra_outputs(ssd1306_oled_bdl)
-
-# Add the project URL (for use in examples browser)
-example_auto_set_url(ssd1306_oled_bdl)
-
-# Check if hardware I2C is available and handle accordingly
-if (TARGET hardware_i2c)
-    add_subdirectory_exclude_platforms(ssd1306_oled_bdl)
-else()
-    message("Skipping I2C examples as hardware_i2c is unavailable on this platform")
-endif()
-
-```
-___
+---
 
 ### 📌 Description
 
