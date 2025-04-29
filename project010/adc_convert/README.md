@@ -88,8 +88,12 @@ cmake ..
 make
 ./test_adc_temp
 
-```
+test_adc_temp.c: test_adc_to_celsius_known_value:PASS
+-----------------------
+1 Tests 0 Failures 0 Ignored
+OK
 
+```
 ---
 
 ## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized Environment
