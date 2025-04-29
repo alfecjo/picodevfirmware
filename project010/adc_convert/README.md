@@ -48,11 +48,16 @@ float adc_to_celsius(uint16_t adc_val);
 
 ```C
 
-void test_adc_to_celsius_known_value(void) {
-    uint16_t adc_val = (uint16_t)((0.706 / 3.3) * 4095);
-    float temperature = adc_to_celsius(adc_val);
-    TEST_ASSERT_FLOAT_WITHIN(0.5, 27.0, temperature);
+// Main test
+void test_adc_to_celsius(void) {
+    uint16_t adc_val = (uint16_t)((0.706f * 4095.0f) / 3.3f);  // Calculate ADC value for 0.706 V
+    float expected_temp = 27.0f;
+    float result = adc_to_celsius(adc_val);
+
+    // Check if the result is within expected range (±0.5 °C tolerance)
+    TEST_ASSERT_FLOAT_WITHIN(0.5f, expected_temp, result);
 }
+
 
 ```
 
