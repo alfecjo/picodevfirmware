@@ -29,7 +29,7 @@ The Raspberry Pi Pico W features an internal temperature sensor connected to a d
 
 ```C
 
-float adc_to_celsius(uint16_t adc_val);
+void test_adc_to_celsius(void)
 
 ```
 - This function converts the raw ADC value into a floating-point temperature in degrees Celsius.
