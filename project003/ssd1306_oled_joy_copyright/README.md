@@ -95,7 +95,9 @@ This section illustrates the hardware used in this project to help replicate the
 
 ### 🖼️ Hardware Setup
 
-![Final tested project](./assets/project003.gif)
+<p align="center">
+  <img src="./assets/project003.gif" alt="Final tested project" />
+</p>
 
 ---
 
