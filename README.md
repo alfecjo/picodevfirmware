@@ -1,4 +1,4 @@
-[![HBr](./hbr.jpg)](https://hardware.org.br/)
+[![HBr](./hbr.png)](https://hardware.org.br/)
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://alfecjo.github.io/antonio_almeida_embarcatech_HBr_2025/)
 
