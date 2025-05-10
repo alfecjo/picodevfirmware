@@ -240,4 +240,4 @@ Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_al
 
 ---
 - ## Return to the main page
-  [![Main](https://img.shields.io/badge/Main-Page?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alfecjo)
+  [![Main Page](https://img.shields.io/badge/Main-Page?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alfecjo)
