@@ -186,7 +186,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 
 ---
 
-### 🌡️ Project 011 — MQTT faz a leitura da temperatura do chip via ADC e publica em um Broker, o qual recebe a informação e disponibiliza aos assinantes  
+### 🌡️ Project 011 — MQTT reads the chip temperature via ADC and publishes it to a Broker, which receives the information and makes it available to subscribers 
 [![Project 010](https://img.shields.io/badge/Project_011-mqtt-green?style=for-the-badge)](./project011/mqtt/)
 
 ---
