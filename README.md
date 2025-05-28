@@ -121,6 +121,14 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       │   └── adc.h
 │       ├── CMakeLists.txt
 │       └── README.md            # Project Overview
+│── /project011
+│   │── /mqtt
+│       │── assets               # Images, Videos, and Diagrams
+│       │── docs                 # Technical Documentation
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Configuração do projeto
+│       └── README.md            # Project Overview
 │── README.md  (General repository explanation)
 └── LICENSE
 ```
@@ -175,6 +183,11 @@ To learn more about a project, refer to its individual `README.md` file located 
 
 ### 🌡️ Project 010 — ADC Temperature Conversion with Unity Test  
 [![Project 010](https://img.shields.io/badge/Project_010-temp_convert-yellow?style=for-the-badge)](./project010/adc_convert/)
+
+---
+
+### 🌡️ Project 011 — MQTT faz a leitura da temperatura do chip via ADC e publica em um Broker, o qual recebe a informação e disponibiliza aos assinantes  
+[![Project 010](https://img.shields.io/badge/Project_010-temp_convert-green?style=for-the-badge)](./project011/mqtt/)
 
 ---
 
