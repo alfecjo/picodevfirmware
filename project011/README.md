@@ -29,11 +29,6 @@ Este projeto demonstra a comunicação via protocolo MQTT utilizando uma placa *
 - Firmware: `picow_mqtt_client`
 - Conectada via Wi-Fi à mesma rede local das Raspberries
 - Envia mensagens MQTT para o Broker usando ADC + sensor interno de temperatura
-- Configurações utilizadas no código:
-  ```c
-  #define MQTT_BROKER "192.168.X.X" // IP da Raspberry Pi Broker
-  #define MQTT_PORT 1883
-  #define MQTT_TOPIC "/temperatura"
 
 ### 2. Raspberry Pi 3B+ - MQTT Broker
 
@@ -49,7 +44,7 @@ sudo systemctl enable mosquitto
 sudo systemctl start mosquitto
 ```
 
-### Teste com cliente:
+### Teste com cliente (sem carga):
 - Considerando variáveis corretamente definidas
 
 ```bash
@@ -81,14 +76,13 @@ mosquitto_sub -h $MQTT_SERVER --cafile $MQTT_SERVER/ca.crt --key $MQTT_SERVER/cl
 
 ### Possíveis Melhorias
 
-- Adicionar autenticação TLS no Broker MQTT
-- Publicar dados reais de sensores conectados à BitDogLab
+- Publicar dados de sensores externos conectados à BitDogLab
 - Armazenar os dados publicados usando um banco de dados leve como InfluxDB
 - Visualizar dados em tempo real com Grafana
 
 ---
 
-## 🍒 A Cereja do Bolo: Acesso Global e Interface Angular com AWS
+## 🍒 A Cereja do Bolo em atualizações futuras: Acesso Global e Interface Angular com AWS
 
 Para completar a arquitetura, o objetivo é **transformar o laboratório local em um ambiente IoT acessível mundialmente**, por meio da exposição segura do broker MQTT à internet e da criação de uma interface web dinâmica desenvolvida em **Angular** e hospedada na **AWS S3**.
 
@@ -96,7 +90,7 @@ Para completar a arquitetura, o objetivo é **transformar o laboratório local e
 
 ### 🌍 Expondo o Broker MQTT via IP Público
 
-Através da **configuração do roteador**, é possível **tornar o broker MQTT da Raspberry Pi acessível globalmente**, usando o IP público fornecido pelo seu ISP:
+Através da **configuração do roteador**, é possível **tornar o broker MQTT da Raspberry Pi 3B+ acessível globalmente**, usando o IP público fornecido pelo seu ISP:
 
 #### 🛠️ Etapas para Habilitar Acesso Global
 
@@ -115,8 +109,8 @@ Através da **configuração do roteador**, é possível **tornar o broker MQTT 
    - Isso fornecerá um domínio estável (ex: `meubroker.duckdns.org`).
 
 3. **Segurança**
-   - Habilite autenticação no broker (usuário e senha).
-   - Considere ativar TLS (SSL) para conexões criptografadas.
+   - Autenticação no broker já habilitada (usuário e senha).
+   - Ativação TLS (SSL) para conexões criptografadas, ok!
    - Configure o firewall do roteador para limitar acesso a IPs confiáveis ou regiões específicas.
 
 ---
@@ -151,6 +145,24 @@ client.on('connect', () => {
   client.publish('topico/atuadores', 'ligar');
 });
 ```
+
+### ☕ Para um back-end completo com Java-Spring falando com o Broker
+
+- Montando um Controller que aceita requisições e envia comando para o Broker pela serial...
+- Para comunicar com dispositivos seriais (como via RS232) em Java
+
+  - jSerialComm (mais moderna e fácil de usar)
+
+  - Maven:
+
+  ```bash
+  <dependency>
+    <groupId>com.fazecast</groupId>
+    <artifactId>jSerialComm</artifactId>
+    <version>2.9.3</version>
+  </dependency>
+  ```
+
 ### 🚦 Fluxo de Comunicação Esperado
 
 ```
@@ -172,5 +184,5 @@ client.on('connect', () => {
 - Bucket S3 com acesso privado via CloudFront
 - Logs, métricas e alertas de tráfego suspeito
 
-> Com essa arquitetura, você transforma seu laboratório caseiro em uma plataforma IoT global, moderna, segura e escalável — pronta para demonstrações profissionais ou até aplicações comerciais.
+> Com essa arquitetura, você transforma seu laboratório caseiro em uma plataforma IoT global, moderna, segura e escalável — pronta para demonstrações profissionais ou até aplicações comerciais. O céu é o limite!!!
 
