@@ -2,7 +2,11 @@
 
 ## Visão Geral
 
-Este projeto demonstra a comunicação via protocolo MQTT utilizando uma placa **BitDogLab** como Publisher, uma **Raspberry Pi 3B+** como Broker MQTT e outra **Raspberry Pi 3B+** rodando **Xubuntu com Wireshark** para análise do tráfego de rede.
+Este projeto demonstra a comunicação via protocolo MQTT, utilizando uma placa BitDogLab como Publisher, uma Raspberry Pi 3B+ como Broker MQTT e outra Raspberry Pi 3B+ rodando Xubuntu com Wireshark para análise do tráfego de rede.
+
+Essa arquitetura foi concebida com fins educacionais e de experimentação, compondo um ecossistema completo de comunicação em tempo real. No entanto, trata-se de uma aplicação de nível hardcore, recomendada para desenvolvedores com experiência prévia. A reconstrução total do sistema deve ser considerada apenas por aqueles que compreendem profundamente os conceitos envolvidos, pois há muitos detalhes críticos que, se mal configurados, podem comprometer toda a comunicação entre os ambientes.
+
+São três sistemas distintos, cada um com funções e requisitos específicos, que precisam interagir de forma harmônica. A falha em qualquer um dos componentes pode afetar diretamente os demais, tornando a depuração e manutenção mais desafiadoras ainda.
 
 ---
 
@@ -186,3 +190,18 @@ client.on('connect', () => {
 
 > Com essa arquitetura, você transforma seu laboratório caseiro em uma plataforma IoT global, moderna, segura e escalável — pronta para demonstrações profissionais ou até aplicações comerciais. O céu é o limite!!!
 
+
+---
+
+## 👤 Author
+**[Antonio Almeida](https://alfecjo.github.io/) Embedded Systems Student**
+
+![HBr](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/blob/main/hbr.jpg)
+
+Have suggestions or found a bug?
+Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/issues). 🚀
+
+---
+
+- ## Return to the main page
+  [![HBr 2025 Project](https://img.shields.io/badge/HBr_2025_Project-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025)
