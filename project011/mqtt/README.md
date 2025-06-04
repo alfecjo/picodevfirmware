@@ -1,30 +1,35 @@
-# Projeto: Monitoramento MQTT com BitDogLab, Servidor Xeon (Ubuntu) e Tcpdump
+# Project: MQTT Monitoring with BitDogLab, Xeon Server (Ubuntu), and Tcpdump
 
-## 📌 Visão Geral
+## 📌 Overview
 
-Este projeto demonstra a comunicação via protocolo **MQTT**, utilizando uma placa **BitDogLab** como *Publisher* e um **servidor Xeon com Ubuntu** como *Broker MQTT*. Para a análise do tráfego de rede, é utilizada a ferramenta **tcpdump**, que oferece uma visão detalhada dos pacotes em tempo real com atenção especial a demonstração de pacotes cifrados, bem como certificados tls.
+This project demonstrates communication via the **MQTT** protocol using a **BitDogLab** board as a Publisher and a Xeon server running **Ubuntu** as the MQTT Broker. For network traffic analysis, the **tcpdump** tool is employed, providing real-time inspection of packets, especially for showcasing encrypted traffic and TLS certificates.
 
-Originalmente idealizado com fins educacionais e experimentais, o projeto evoluiu de um ambiente baseado em *Raspberry Pi* para um servidor mais robusto, refletindo práticas de ambientes reais de produção.
+Originally designed for educational and experimental purposes, the project evolved from a Raspberry Pi-based setup to a more robust server infrastructure — reflecting real-world production practices.
 
-> ⚠️ **Importante:** Sinta-se a vontade para começar quando quiser, contudo, esta aplicação é de nível avançado (*hardcore*), recomendada para desenvolvedores com experiência técnica sólida. Não se trata de uma solução *plug-and-play*.
+> ⚠️ **Note**: Feel free to start whenever you want, but be aware that this is an advanced (hardcore) application — recommended for developers with solid technical experience. This is not a plug-and-play solution.
 
-## 🧱 Componentes da Arquitetura
+## 🧱 System Architecture
 
-- **BitDogLab**: atua como cliente MQTT (Publisher), transmitindo dados sensoriais;
-- **Servidor Xeon com Ubuntu**: executa o broker MQTT (como Mosquitto), configurado com criptografia TLS;
-- **Tcpdump**: utilizado para análise e diagnóstico do tráfego de rede entre os dispositivos;
-- **Infraestrutura de Segurança**: geração e gestão de certificados TLS, controle de acesso e configuração de firewall.
+```mermaid
+graph TD
+    BitDogLab(Publisher - BitDogLab)
+    Broker(MQTT Broker - Xeon Ubuntu Server)
+    Tcpdump[tcpdump - CLI Packet Capture]
 
-## ⚙️ Complexidade Técnica
+    BitDogLab --> Broker --> Tcpdump
 
-Cada componente tem um papel crítico, e qualquer erro em:
+```
 
-- configuração do broker,
-- certificados TLS (ex: CN inválido),
-- portas e regras de firewall mal ajustadas,
-- ou na estrutura dos tópicos MQTT
+## ⚙️ Technical Complexity
 
-pode comprometer todo o sistema. Isso exige **diagnóstico técnico preciso**, **resiliência** e **atenção aos detalhes**.
+Each component plays a critical role, and any misconfiguration in:
+
+- the broker settings,
+- TLS certificates (e.g., invalid CN),
+- port and firewall rules,
+- or the structure of MQTT topics
+
+can compromise the entire system. This demands precise technical diagnostics, resilience, and attention to detail.
 
 ---
 
@@ -39,53 +44,51 @@ graph TD
 
 ---
 
-### 🛡️ Para se pensar futuramente:
+### 🛡️ For Future Consideration:
 
-- WebSocket seguro wss.
-- IP filtering no roteador (acesso restrito por IP ou geolocalização)
-- Autenticação JWT na interface Angular
-- Bucket S3 com acesso privado via CloudFront
-- Logs, métricas e alertas de tráfego suspeito
-
-> Com essa arquitetura, você transforma seu laboratório caseiro em uma plataforma IoT global, moderna, segura e escalável — pronta para demonstrações profissionais ou até aplicações comerciais. O céu é o limite!!!
+- Secure WebSocket (wss)
+- IP filtering on the router (IP or geolocation-based access control)
+- JWT authentication for the Angular frontend
+- Private S3 bucket access via CloudFront
+- Logs, metrics, and alerts for suspicious traffic
+> With this architecture, you turn your home lab into a modern, secure, and scalable global IoT platform — ready for professional demos or even commercial use. The sky is the limit!
 
 ---
 
-## ⚠️ Considerações Finais — Resiliência Técnica antes da Escalabilidade
+## ⚠️ Final Thoughts — Technical Resilience Before Scalability
 
-Este projeto não se enquadra em soluções do tipo *plug-and-play* nem segue um padrão de replicação simples como uma “receita de bolo”. Originalmente no SDK, foi transformado de tal forma a atender as especificações que praticamente virou outra aplicação. Desenvolver uma aplicação em C/C++ sobre um SDK próprio — especialmente quando executada em um ambiente containerizado — utilizando o protocolo MQTT com criptografia TLS, exige conhecimento profundo em diversas camadas da arquitetura.
+This project does not fit into plug-and-play solutions or follow a simple “recipe-style” replication pattern. Originally built using an SDK, it was transformed so extensively to meet the specs that it practically became a new application. Developing a C/C++ application over a custom SDK — especially in a containerized environment — using the MQTT protocol with TLS encryption requires deep knowledge across various architectural layers.
 
-A aplicação depende de múltiplos componentes interdependentes:
+The application depends on multiple interdependent components:
 
-- O dispositivo cliente (BitDogLab);
-- Um broker MQTT (Mosquitto) executando em um servidor distinto;
-- Uma infraestrutura de segurança baseada em certificados TLS e controle de acesso;
-- Configurações de rede, como portas, firewall, e possíveis mapeamentos de DNS dinâmico (DDNS).
+- The client device (BitDogLab)
+- An MQTT broker (Mosquitto) running on a separate server
+- A security infrastructure based on TLS certificates and access control
+- Network configurations like ports, firewall rules, and possible dynamic DNS (DDNS) mappings
 
-Cada etapa envolve detalhes que, se mal configurados, comprometem a operação como um todo. Um certificado inválido, uma ACL restritiva, ou uma porta de rede não liberada podem inviabilizar a comunicação sem dar pistas da origem do problema.
+Each step involves details that, if misconfigured, can break the entire system. An invalid certificate, a restrictive ACL, or a closed port may prevent communication without giving any clue about the root cause.
+This kind of project exercises more than just embedded programming skills:
 
-Pensando assim, mais do que habilidades em programação embarcada, esse tipo de projeto exercita:
+- **System-level** understanding of secure communication architecture
+- **Technical diagnostic** capabilities for silent failures
+- **Deployment planning**, considering provisioning, updates, and continuous security
 
-- **Compreensão sistêmica** de arquitetura de comunicação segura;
-- **Capacidade de diagnóstico técnico** frente a falhas silenciosas;
-- **Planejamento de implantação**, considerando provisionamento, atualizações e segurança contínua.
-
-Trata-se de um excelente exercício de maturidade técnica, que promove resiliência, atenção aos detalhes e domínio prático de integração entre hardware, protocolos de rede e boas práticas de segurança.
-
+It's an excellent technical maturity exercise, promoting resilience, detail orientation, and practical mastery in integrating hardware, network protocols, and security best practices.
+Reaching this point and operating the system both functionally and securely proves real-world engineering competence.
 Chegar até aqui e conseguir operar o sistema de forma funcional e segura, demonstra competência em engenharia aplicada.
 
-🎯Isso sim é engenharia real!!!
+🎯Now this is real engineering!
 
-### 💬 A título de reflexão:
-- Em 98% dos casos, os desenvolvedores atuam em soluções já concebidas, mantendo ou expandindo software existente.
-- Apenas 2% envolve a criação de novos sistemas — e dentro de um time, essa tarefa normalmente recai sobre o profissional mais experiente.
-  - Isso, por si só, já aumenta as chances de sucesso e a cobertura completa dos casos de uso.
+### 💬 Food for Thought:
+- In 98% of cases, developers work on already conceived systems, maintaining or expanding existing software.
+- Only 2% involves creating entirely new systems — and within a team, this responsibility usually falls to the most experienced engineer.
+  - This alone increases the chances of success and ensures full coverage of use cases.
 
-> **Próximo desafio:** automatizar o processo de provisionamento, entrega contínua (CI/CD) e gestão escalável de dispositivos. Está pronto, vamos para a AWS?
+> **Next challenge**: automate provisioning, continuous delivery (CI/CD), and scalable device management. Ready to move to AWS?
 
 ---
 
-### 📽️ Click e assista ao vídeo no YouTube... 
+### 📽️ Click and watch the presentation video on YouTube... 
 
 [![Vídeo de Apresentação do Projeto](https://github.com/EmbarcaTech-2025/tarefa-iot-security-lab-ac/blob/main/segurancaemiot.png)](https://www.youtube.com/watch?v=s1REZi5idRU)
 
