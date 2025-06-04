@@ -39,9 +39,9 @@ graph TD
 
 ---
 
-### 🛡️ Segurança Reforçada
+### 🛡️ Para se pensar futuramente:
 
-- TLS no broker (porta 8883 ou WebSocket seguro wss)
+- WebSocket seguro wss.
 - IP filtering no roteador (acesso restrito por IP ou geolocalização)
 - Autenticação JWT na interface Angular
 - Bucket S3 com acesso privado via CloudFront
@@ -81,7 +81,7 @@ Chegar até aqui e conseguir operar o sistema de forma funcional e segura, demon
 - Apenas 2% envolve a criação de novos sistemas — e dentro de um time, essa tarefa normalmente recai sobre o profissional mais experiente.
   - Isso, por si só, já aumenta as chances de sucesso e a cobertura completa dos casos de uso.
 
-> **Próximo desafio:** automatizar o processo de provisionamento, entrega contínua (CI/CD) e gestão escalável de dispositivos. Está pronto?
+> **Próximo desafio:** automatizar o processo de provisionamento, entrega contínua (CI/CD) e gestão escalável de dispositivos. Está pronto, vamos para a AWS?
 
 ---
 
