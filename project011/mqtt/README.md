@@ -83,8 +83,6 @@ Chegar até aqui e conseguir operar o sistema de forma funcional e segura, demon
 
 ---
 
----
-
 ## 👤 Author
 **[Antonio Almeida](https://alfecjo.github.io/) Embedded Systems Student**
 
