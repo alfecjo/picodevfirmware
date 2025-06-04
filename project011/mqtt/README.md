@@ -82,7 +82,7 @@ Chegar até aqui e conseguir operar o sistema de forma funcional e segura, demon
 
 ---
 
-### 📽️ Click and watch the presentation video on YouTube... 
+### 📽️ Video... 
 
 [![Vídeo de Apresentação do Projeto](https://github.com/alfecjo/picodevfirmware/blob/main/project011/mqtt/assets/segurancaemiot.png)](https://www.youtube.com/watch?v=s1REZi5idRU)
 
