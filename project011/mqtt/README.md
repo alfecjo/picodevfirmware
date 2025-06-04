@@ -2,7 +2,7 @@
 
 ## 📌 Visão Geral
 
-Este projeto demonstra a comunicação via protocolo **MQTT**, utilizando uma placa **BitDogLab** como *Publisher* e um **servidor Xeon com Ubuntu** como *Broker MQTT*. Para a análise do tráfego de rede, é utilizada a ferramenta **tcpdump**, que oferece uma visão detalhada dos pacotes em tempo real.
+Este projeto demonstra a comunicação via protocolo **MQTT**, utilizando uma placa **BitDogLab** como *Publisher* e um **servidor Xeon com Ubuntu** como *Broker MQTT*. Para a análise do tráfego de rede, é utilizada a ferramenta **tcpdump**, que oferece uma visão detalhada dos pacotes em tempo real com atenção especial a demonstração de pacotes cifrados, bem como certificados tls.
 
 Originalmente idealizado com fins educacionais e experimentais, o projeto evoluiu de um ambiente baseado em *Raspberry Pi* para um servidor mais robusto, refletindo práticas de ambientes reais de produção.
 
