@@ -29,7 +29,7 @@ Each component plays a critical role, and any misconfiguration in:
 - port and firewall rules,
 - or the structure of MQTT topics
 
-can compromise the entire system. This demands precise technical diagnostics, resilience, and attention to detail.
+Can compromise the entire system. This demands precise technical diagnostics, resilience, and attention to detail.
 
 ---
 
