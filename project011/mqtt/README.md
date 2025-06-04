@@ -33,17 +33,6 @@ Can compromise the entire system. This demands precise technical diagnostics, re
 
 ---
 
-```mermaid
-graph TD
-    BitDogLab(Publisher - BitDogLab)
-    Broker(MQTT Broker - Xeon Ubuntu Server)
-    Tcpdump[tcpdump - Captura CLI]
-
-    BitDogLab --> Broker --> Tcpdump
-```
-
----
-
 ### 🛡️ For Future Consideration:
 
 - Secure WebSocket (wss)
