@@ -24,7 +24,7 @@ graph TD
     Tcpdump(tcpdump - CLI Packet Capture)
     End([End])
 
-    Start --> BitDogLab --> Broker --> Tcpdump
+    Start --> BitDogLab --> Broker --> Tcpdump -->  End([End])
     Tcpdump -->|loop| BitDogLab
 ```
 
