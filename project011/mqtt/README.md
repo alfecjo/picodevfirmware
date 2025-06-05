@@ -15,7 +15,7 @@ Originally designed for educational and experimental purposes, the project evolv
 
 ## 🧱 System Architecture
 
-mermaid
+```mermaid
 graph TD
 
     Start([Start])
@@ -25,6 +25,7 @@ graph TD
     End([End])
 
     Start --> BitDogLab --> Broker --> Tcpdump --> End
+```
 
 ## ⚙️ Technical Complexity
 
