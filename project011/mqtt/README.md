@@ -14,7 +14,9 @@ For network traffic analysis, the `tcpdump` tool is employed, providing real-tim
 
 Originally designed for educational and experimental purposes, the project evolved from a **Raspberry Pi-based setup** to a **robust production-grade server infrastructure**, reflecting real-world engineering practices and deployment standards.
 
-![Intel Xeon MQTT Broker](https://github.com/alfecjo/picodevfirmware/raw/main/project011/mqtt/assets/intelXeon.gif)
+<div align="center">
+  <img src="https://github.com/alfecjo/picodevfirmware/raw/main/project011/mqtt/assets/intelXeon.gif" alt="Intel Xeon MQTT Broker">
+</div>
 
 > ⚠️ **Note**: Feel free to start whenever you want, but be aware that this is an advanced (hardcore) application — recommended for developers with solid technical experience. This is not a plug-and-play solution.
 
