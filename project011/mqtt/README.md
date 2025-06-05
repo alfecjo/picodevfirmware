@@ -7,9 +7,14 @@ You may need to adapt your CMakeLists.txt or build system based on your specific
 
 ## 📌 Overview
 
-This project demonstrates communication via the **MQTT** protocol using a **BitDogLab** board as a Publisher and a Xeon server running **Ubuntu** as the MQTT Broker. For network traffic analysis, the **tcpdump** tool is employed, providing real-time inspection of packets, especially for showcasing encrypted traffic and TLS certificates.
+# MQTT Communication with BitDogLab and Xeon Server
 
-Originally designed for educational and experimental purposes, the project evolved from a Raspberry Pi-based setup to a more robust server infrastructure — reflecting real-world production practices.
+This project demonstrates communication via the MQTT protocol using a **BitDogLab** board as a **Publisher**, and a **powerful Xeon-based Ubuntu server** as the **MQTT Broker**.  
+For network traffic analysis, the `tcpdump` tool is employed, providing real-time packet inspection — particularly valuable for showcasing **encrypted traffic** and examining **TLS certificates**.
+
+Originally designed for educational and experimental purposes, the project evolved from a **Raspberry Pi-based setup** to a **robust production-grade server infrastructure**, reflecting real-world engineering practices and deployment standards.
+
+
 
 > ⚠️ **Note**: Feel free to start whenever you want, but be aware that this is an advanced (hardcore) application — recommended for developers with solid technical experience. This is not a plug-and-play solution.
 
