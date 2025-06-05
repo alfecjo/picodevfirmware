@@ -15,13 +15,15 @@ Originally designed for educational and experimental purposes, the project evolv
 
 ## 🧱 System Architecture
 
-mermaid
-graph TD    
+graph TD
+
+    Start([Start])
     BitDogLab(Publisher - BitDogLab)
     Broker(MQTT Broker - Xeon Ubuntu Server)
     Tcpdump(tcpdump - CLI Packet Capture)
+    End([End])
 
-    BitDogLab --> Broker --> Tcpdump
+    Start --> BitDogLab --> Broker --> Tcpdump --> End
 
 ## ⚙️ Technical Complexity
 
