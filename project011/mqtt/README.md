@@ -15,7 +15,6 @@ Originally designed for educational and experimental purposes, the project evolv
 
 ## 🧱 System Architecture
 
-mermaid
 graph TD
     
     BitDogLab(Publisher - BitDogLab)
