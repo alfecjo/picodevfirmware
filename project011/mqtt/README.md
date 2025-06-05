@@ -18,11 +18,11 @@ Originally designed for educational and experimental purposes, the project evolv
 mermaid
 graph TD
 
-    Start([Start])
+    Start(Start)
     BitDogLab(Publisher - BitDogLab)
     Broker(MQTT Broker - Xeon Ubuntu Server)
     Tcpdump(tcpdump - CLI Packet Capture)
-    End([End])
+    End(End)
 
     Start --> BitDogLab --> Broker --> Tcpdump --> End
 
