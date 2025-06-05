@@ -67,9 +67,7 @@ This kind of project exercises more than just embedded programming skills:
 - **Technical diagnostic** capabilities for silent failures
 - **Deployment planning**, considering provisioning, updates, and continuous security
 
-It's an excellent technical maturity exercise, promoting resilience, detail orientation, and practical mastery in integrating hardware, network protocols, and security best practices.
-Reaching this point and operating the system both functionally and securely proves real-world engineering competence.
-Chegar até aqui e conseguir operar o sistema de forma funcional e segura, demonstra competência em engenharia aplicada.
+This project represents a comprehensive exercise in technical maturity, fostering resilience, precision, and practical expertise in the integration of embedded hardware, network protocols, and cybersecurity principles. Successfully reaching this stage and achieving secure, functional operation of the system is a clear demonstration of applied engineering capability.
 
 🎯Now this is real engineering!
 
