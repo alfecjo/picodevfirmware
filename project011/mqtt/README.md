@@ -1,5 +1,5 @@
 ## ⚠️ Important Note:
-You may need to adapt your CMakeLists.txt or build system based on your specific development environment. System-specific configurations (e.g., I2C bus, OLED wiring, SDK path) may require manual setup to ensure proper execution.
+You may need to adapt your CMakeLists.txt or build system based on your specific development environment. System-specific configurations (e.g., I²C bus, OLED wiring, SDK path) may require manual setup to ensure proper execution.
 
 ---
 
