@@ -92,7 +92,7 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 ## 👤 Author
 **[Antonio Almeida](https://alfecjo.github.io/) Embedded Systems Student**
 
-![HBr](./assets/hbr.jpg)
+[![HBr - Serviços](https://github.com/alfecjo/picodevfirmware/blob/main/project000/antonio_almeida_embarcatech_HBr_2025_fase_1/hbr.jpg)](https://hardware.org.br/servicos/)
 
 Have suggestions or found a bug?
 Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/issues). 🚀
