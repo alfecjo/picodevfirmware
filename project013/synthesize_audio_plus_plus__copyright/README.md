@@ -77,6 +77,12 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 
 ---
 
+### 📽️ Video... 
+
+[![Vídeo de Apresentação do Projeto](https://github.com/alfecjo/picodevfirmware/blob/main/project013/synthesize_audio_plus_plus__copyright/assets/syntetize%20C%2B%2B.png)](https://www.youtube.com/watch?v=ZfnCZQWFPbg)
+
+---
+
 ## 👤 Author
 **[Antonio Almeida](https://alfecjo.github.io/) Embedded Systems Student**
 
