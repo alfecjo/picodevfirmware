@@ -1,4 +1,4 @@
-[![HBr](./hbr.png)](https://hardware.org.br/)
+[![HBr](./hbr1.png)](https://hardware.org.br/)
 
 # 🚀 EmbarcaTech 2025 - Phase I 
 
