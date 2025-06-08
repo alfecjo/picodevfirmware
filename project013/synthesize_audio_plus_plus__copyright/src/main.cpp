@@ -19,7 +19,7 @@ int main()
 
     
     RgbLed led;
-    AudioPlayback player(10, &led, AudioConfig::SAMPLE_RATE);
+    AudioPlayback player(AudioConfig::DEFAULT_PWM_PIN, &led, AudioConfig::SAMPLE_RATE);
     player.initPWM();
     
     I2cSetup i2cSetup;
