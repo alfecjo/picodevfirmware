@@ -207,10 +207,10 @@ To learn more about a project, refer to its individual `README.md` file located 
 
 ---
 
-### 🎲 Project 012 — BitDogLab Audio Recorder – C Version  
+### 🎙️ Project 012 — BitDogLab Audio Recorder – C Version  
 [![Project 012](https://img.shields.io/badge/Project_012-audio_record-purple?style=for-the-badge)](./project012/synthesize_audio_ac/)
 
-### 🎲 Project 013 — BitDogLab Audio Recorder – C++ Version
+### 🎙️ Project 013 — BitDogLab Audio Recorder – C++ Version
 [![Project 013](https://img.shields.io/badge/Project_013-audio_record-purple?style=for-the-badge)](./project013/synthesize_audio_plus_plus__copyright/)
 
 ---
