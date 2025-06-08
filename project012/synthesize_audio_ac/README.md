@@ -36,7 +36,7 @@ The system interacts with the user through **physical buttons**, provides **visu
 
 ---
 
-If you're looking for a version implemented in **C++ with higher-level abstractions**, consider exploring the [C++-based variant]([#](https://github.com/alfecjo/picodevfirmware/tree/main/project013/synthesize_audio_plus_plus__copyright)) which introduces encapsulation, modularity, and reusable components.
+If you're looking for a version implemented in **C++ with higher-level abstractions**, consider exploring the [C++-based variant](https://github.com/alfecjo/picodevfirmware/tree/main/project013/synthesize_audio_plus_plus__copyright) which introduces encapsulation, modularity, and reusable components.
 
 ---
 
