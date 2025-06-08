@@ -129,6 +129,22 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Configuração do projeto
 │       └── README.md            # Project Overview
+│── /project012
+│   │── /synthesize_audio_ac
+│       │── assets               # Images, Videos, and Diagrams
+│       │── docs                 # Technical Documentation
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Configuração do projeto
+│       └── README.md            # Project Overview
+│── /project013
+│   │── /synthesize_audio_plus_plus__copyright
+│       │── assets               # Images, Videos, and Diagrams
+│       │── docs                 # Technical Documentation
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Configuração do projeto
+│       └── README.md            # Project Overview
 │── README.md  (General repository explanation)
 └── LICENSE
 ```
@@ -188,6 +204,16 @@ To learn more about a project, refer to its individual `README.md` file located 
 
 ### 🤖 Project 011 — MQTT reads the chip temperature via I2C and publishes it to a Broker, which receives the information and makes it available to subscribers 
 [![Project 010](https://img.shields.io/badge/Project_011-mqtt-green?style=for-the-badge)](./project011/mqtt/)
+
+---
+
+### 🎲 Project 012 — BitDogLab Audio Recorder – C Version  
+[![Project 012](https://img.shields.io/badge/Project_012-audio_record-purple?style=for-the-badge)](./project012
+/synthesize_audio_ac/)
+
+### 🎲 Project 013 — BitDogLab Audio Recorder – C++ Version
+[![Project 013](https://img.shields.io/badge/Project_013-audio_record-purple?style=for-the-badge)](./project013
+/synthesize_audio_plus_plus__copyright/)
 
 ---
 
