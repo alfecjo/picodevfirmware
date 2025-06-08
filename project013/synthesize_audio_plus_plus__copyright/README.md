@@ -57,6 +57,12 @@ The system leverages **classes and encapsulation** to handle hardware components
 
 ---
 
+### 📽️ Video... 
+
+[![Vídeo de Apresentação do Projeto](https://github.com/alfecjo/picodevfirmware/blob/main/project013/synthesize_audio_plus_plus__copyright/assets/syntetize%20C%2B%2B.png)](https://www.youtube.com/watch?v=ZfnCZQWFPbg)
+
+---
+
 ## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized Environment
 
 Tired of manual setups and toolchain installations? Want to skip the setup and run the projects in a ready-to-use development environment?
@@ -74,12 +80,6 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 
 - 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab/BitDogLab) projects instantly — no manual installations needed!
 - 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
-
----
-
-### 📽️ Video... 
-
-[![Vídeo de Apresentação do Projeto](https://github.com/alfecjo/picodevfirmware/blob/main/project013/synthesize_audio_plus_plus__copyright/assets/syntetize%20C%2B%2B.png)](https://www.youtube.com/watch?v=ZfnCZQWFPbg)
 
 ---
 
