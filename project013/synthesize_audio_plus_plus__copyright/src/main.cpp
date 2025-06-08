@@ -30,7 +30,7 @@ int main()
 
     ButtonManager buttonManager(GPIO_RECORD, GPIO_PLAY);
 
-    printf("Sistema iniciado.\n");
+    //printf("Sistema iniciado.\n");
 
 
     while (true)
