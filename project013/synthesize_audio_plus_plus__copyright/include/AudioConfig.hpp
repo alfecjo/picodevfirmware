@@ -5,7 +5,7 @@
 #include <array>
 
 namespace AudioConfig {
-    constexpr uint32_t DEFAULT_PWM_PIN= 2;
+    constexpr uint32_t DEFAULT_PWM_PIN= 10;
 
     constexpr uint32_t SAMPLE_RATE = 16000;
     constexpr uint32_t RECORD_DURATION = 4;
