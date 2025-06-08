@@ -1,3 +1,8 @@
+## ⚠️ Important Note:
+You may need to adjust the `CMakeLists.txt` file according to your development environment, as each setup might differ based on the developer's system configuration. Without these adjustments, the code may not behave as expected.
+
+---
+
 # 🎙️ BitDogLab Audio Recorder
 
 This project implements an **audio recorder and player** using the **BitDogLab platform (Raspberry Pi Pico W)**, developed primarily in **structured C** — emphasizing **low-level, procedural programming** rather than object-oriented approaches.
@@ -31,4 +36,39 @@ The system interacts with the user through **physical buttons**, provides **visu
 
 ---
 
-If you're looking for a version implemented in **C++ with higher-level abstractions**, consider exploring the [C++-based variant](#) which introduces encapsulation, modularity, and reusable components.
+If you're looking for a version implemented in **C++ with higher-level abstractions**, consider exploring the [C++-based variant]([#](https://github.com/alfecjo/picodevfirmware/tree/main/project013/synthesize_audio_plus_plus__copyright)) which introduces encapsulation, modularity, and reusable components.
+
+---
+
+## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized Environment
+
+Tired of manual setups and toolchain installations? Want to skip the setup and run the projects in a ready-to-use development environment?
+
+🚀 **Launch all projects using our custom Docker image with full Pico SDK support!**  
+The image includes build tools, dependencies, and sample projects — all pre-configured.
+
+👇 Visit the repository and get started now:  
+
+<p align="center">
+  <a href="https://github.com/alfecjo/rp2040-container">
+    <img src="https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/raw/main/picodevbox.png" alt="PicoDevBox" width="200"/>
+  </a>
+</p>
+
+- 💡 Use this container to compile, test, and develop your Raspberry Pi Pico and [BitDogLab](https://github.com/BitDogLab/BitDogLab) projects instantly — no manual installations needed!
+- 🛠️ Created and maintained by the author of this project to simplify and accelerate development.
+
+---
+
+## 👤 Author
+**[Antonio Almeida](https://alfecjo.github.io/) Embedded Systems Student**
+
+[![HBr - Serviços](https://github.com/alfecjo/picodevfirmware/blob/main/project000/antonio_almeida_embarcatech_HBr_2025_fase_1/hbr.jpg)](https://hardware.org.br/servicos/)
+
+Have suggestions or found a bug?
+Feel free to contribute or open an [issue](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025/issues). 🚀
+
+---
+
+- ## Return to the main page
+  [![HBr 2025 Project](https://img.shields.io/badge/HBr_2025_Project-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alfecjo/antonio_almeida_embarcatech_HBr_2025)
