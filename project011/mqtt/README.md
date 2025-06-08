@@ -92,7 +92,7 @@ This project represents a comprehensive exercise in technical maturity, fosterin
 
 ### 📽️ Video... 
 
-[![Vídeo de Apresentação do Projeto](https://github.com/alfecjo/picodevfirmware/blob/main/project012/synthesize_audio_ac/assets/syntetize%20C.png)](https://www.youtube.com/watch?v=THWkHr1u154)
+[![Vídeo de Apresentação do Projeto](https://github.com/alfecjo/picodevfirmware/blob/main/project011/mqtt/assets/segurancaemiot.png)](https://www.youtube.com/watch?v=THWkHr1u154)
 
 ---
 
