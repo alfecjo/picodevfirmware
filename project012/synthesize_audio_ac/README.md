@@ -40,6 +40,12 @@ If you're looking for a version implemented in **C++ with higher-level abstracti
 
 ---
 
+### 📽️ Video... 
+
+[![Vídeo de Apresentação do Projeto](https://github.com/alfecjo/picodevfirmware/blob/main/project012/synthesize_audio_ac/assets/syntetize%20C.png)](https://www.youtube.com/watch?v=dL5RZdOgLoE)
+
+---
+
 ## 🐳 Run, Maintain and Deploy the Application in a Docker Containerized Environment
 
 Tired of manual setups and toolchain installations? Want to skip the setup and run the projects in a ready-to-use development environment?
