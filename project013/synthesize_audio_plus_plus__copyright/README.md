@@ -13,7 +13,7 @@ The system leverages **classes and encapsulation** to handle hardware components
 
 ## 📦 Features
 
-- 🎚️ **Audio recording** using encapsulated ADC controller (adjustable sampling rate - 12K and 22K)
+- 🎚️ **Audio recording** using encapsulated ADC controller (adjustable sampling rate - tests 12K and 22K)
 - 🔊 **Audio playback** via PWM driver class
 - 🎛️ **User control via hardware abstraction classes**:
   - `RecordButton`: triggers recording
