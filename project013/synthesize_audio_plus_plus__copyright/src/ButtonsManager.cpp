@@ -1,7 +1,3 @@
-#include "hardware/gpio.h"
-#include "ButtonManager.hpp"
-
-// === Inicializa os botões ===
 #include "ButtonManager.hpp"
 #include "hardware/gpio.h"
 
