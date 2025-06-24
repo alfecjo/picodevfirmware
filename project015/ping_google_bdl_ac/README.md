@@ -1,3 +1,17 @@
+## ⚠️ Important Note – Required Environment Variables
+
+To run this example successfully, it is **mandatory to configure a few environment variables** before compilation. These ensure the application runs exactly as shown in the video:
+
+- `WIFI_SSID` – The name of the Wi-Fi network.
+- `WIFI_PASSWORD` – The password for that network.
+- *(Optional)* `PING_ADDR` – The IP or hostname to be pinged (default: `8.8.8.8`).
+
+You can set these either:
+
+- **Directly in the source code** for local testing,
+- Or preferably via **compile-time definitions** in your `CMakeLists.txt` using `target_compile_definitions()`.
+
+> 🔒 **Security Tip:** Avoid storing sensitive credentials in versioned files. Use environment variables or `.env` files (and add them to `.gitignore`).
 
 ---
 
@@ -56,23 +70,6 @@ The project adheres to solid embedded design principles:
 ## 📽️ Video Demonstration
 
 [![Project Demo Video](https://github.com/EmbarcaTech-2025/tarefa-freertos-2-antonio-almeida/blob/main/assets/ping.png)](https://www.youtube.com/watch?v=GLwqQY0oyi4)
-
----
-
-## ⚠️ Important Note – Required Environment Variables
-
-To run this example successfully, it is **mandatory to configure a few environment variables** before compilation. These ensure the application runs exactly as shown in the video:
-
-- `WIFI_SSID` – The name of the Wi-Fi network.
-- `WIFI_PASSWORD` – The password for that network.
-- *(Optional)* `PING_ADDR` – The IP or hostname to be pinged (default: `8.8.8.8`).
-
-You can set these either:
-
-- **Directly in the source code** for local testing,
-- Or preferably via **compile-time definitions** in your `CMakeLists.txt` using `target_compile_definitions()`.
-
-> 🔒 **Security Tip:** Avoid storing sensitive credentials in versioned files. Use environment variables or `.env` files (and add them to `.gitignore`).
 
 ---
 
