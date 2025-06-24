@@ -144,7 +144,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── CMakeLists.txt       # Project configuration
 │       └── README.md            # Project Overview
 │── /project014
-│   │── /synthesize_audio_plus_plus__copyright
+│   │── /bdl_freertos_ac__copyright
 │       │── assets               # Images, Videos, and Diagrams
 │       │── docs                 # Technical Documentation
 │       ├── include/             # Headers (.h, .hpp)
@@ -152,7 +152,7 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── CMakeLists.txt       # Project configuration
 │       └── README.md            # Project Overview
 │── /project015
-│   │── /synthesize_audio_plus_plus__copyright
+│   │── /ping_google_bdl_ac__copyright
 │       │── assets               # Images, Videos, and Diagrams
 │       │── docs                 # Technical Documentation
 │       ├── include/             # Headers (.h, .hpp)
