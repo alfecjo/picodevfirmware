@@ -1,15 +1,3 @@
-# Tarefa: Roteiro de FreeRTOS #1 - EmbarcaTech 2025
-
-Autor: **Antonio Carlos Ferreira de Almeida**
-
-Curso: Residência Tecnológica em Sistemas Embarcados
-
-Instituição: EmbarcaTech - HBr
-
-Campinas, 11 de junho de 2025
-
----
-
 # Projeto: Sistema Multitarefa com FreeRTOS no Raspberry Pi Pico
 
 Este projeto implementa um sistema multitarefa embarcado na BitDogLab (Raspberry Pi Pico), usando o sistema operacional de tempo real **FreeRTOS**. O sistema é desenvolvido em linguagem **C** utilizando o **Pico SDK** e **VSCode**, com foco em concorrência entre tarefas para controlar periféricos básicos.
