@@ -143,6 +143,22 @@ To learn more about a project, refer to its individual `README.md` file located 
 │       ├── src/                 # Main source code (.c, .cpp)
 │       ├── CMakeLists.txt       # Project configuration
 │       └── README.md            # Project Overview
+│── /project014
+│   │── /synthesize_audio_plus_plus__copyright
+│       │── assets               # Images, Videos, and Diagrams
+│       │── docs                 # Technical Documentation
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Project configuration
+│       └── README.md            # Project Overview
+│── /project015
+│   │── /synthesize_audio_plus_plus__copyright
+│       │── assets               # Images, Videos, and Diagrams
+│       │── docs                 # Technical Documentation
+│       ├── include/             # Headers (.h, .hpp)
+│       ├── src/                 # Main source code (.c, .cpp)
+│       ├── CMakeLists.txt       # Project configuration
+│       └── README.md            # Project Overview
 │── README.md  (General repository explanation)
 └── LICENSE
 ```
@@ -210,6 +226,16 @@ To learn more about a project, refer to its individual `README.md` file located 
 
 ### 🎙️ Project 013 — BitDogLab Audio Recorder – C++ Version
 [![Project 013](https://img.shields.io/badge/Project_013-audio_record-purple?style=for-the-badge)](./project013/synthesize_audio_plus_plus__copyright/)
+
+---
+
+### 🏋️‍♀️ Project 014 — BitDogLab starting FreeRTOS
+[![Project 012](https://img.shields.io/badge/Project_012-audio_record-orange?style=for-the-badge)](./project012/synthesize_audio_ac/)
+
+---
+
+### 👑 Project 015 — BitDogLab pinging Google server (FreeRTOS)
+[![Project 012](https://img.shields.io/badge/Project_012-audio_record-yellowgreen?style=for-the-badge)](./project012/synthesize_audio_ac/)
 
 ---
 
