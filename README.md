@@ -230,12 +230,12 @@ To learn more about a project, refer to its individual `README.md` file located 
 ---
 
 ### 🏋️‍♀️ Project 014 — BitDogLab starting FreeRTOS
-[![Project 012](https://img.shields.io/badge/Project_012-audio_record-orange?style=for-the-badge)](./project012/synthesize_audio_ac/)
+[![Project 012](https://img.shields.io/badge/Project_014-RTOS-orange?style=for-the-badge)](./project014/bdl_freertos_ac/)
 
 ---
 
 ### 👑 Project 015 — BitDogLab pinging Google server (FreeRTOS)
-[![Project 012](https://img.shields.io/badge/Project_012-audio_record-yellowgreen?style=for-the-badge)](./project012/synthesize_audio_ac/)
+[![Project 012](https://img.shields.io/badge/Project_012-pinging_Google_server-yellowgreen?style=for-the-badge)](./project015/ping_google_bdl_ac/)
 
 ---
 
