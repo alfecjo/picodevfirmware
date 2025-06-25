@@ -15,17 +15,17 @@ You can set these either:
 
 ---
 
-## Technical Overview – FreeRTOS Application in C, dynamically updating the BitDogLab (BDL*) OLED with ping responses from Google's server (https://8.8.8.8), using the Pico W's built-in CYW43 Wi-Fi chip.
+## Technical Overview – FreeRTOS Application in C, dynamically updating the [BitDogLab](https://github.com/BitDogLab/BitDogLab) (BDL*) OLED with ping responses from Google's server (https://8.8.8.8), using the Pico W's built-in CYW43 Wi-Fi chip.
 
 **With full permission from all original authors and sources** — as indicated in the header of each `.c` and `.h` file.  
 > No part of the code was used without proper licensing. I strictly follow the authors' guidelines: keeping the code **open and unrestricted!!!**
 
-In this project, the BDL* board with its Pico W runs a **FreeRTOS** system with multiple tasks, implementing **Wi-Fi connectivity** and **dynamic OLED display updates**.
+In this project, the [BDL](https://github.com/BitDogLab/BitDogLab)* board with its Pico W runs a **FreeRTOS** system with multiple tasks, implementing **Wi-Fi connectivity** and **dynamic OLED display updates**.
 
 - This is a great example of code reuse and functional integration, where a fully working SDK application was extended with new functionality without obstacles.
 - The original SDK application was designed for multi-user/multitasking (RTOS), performing 'ping' operations to a Raspberry Foundation server, initially providing output only through the serial interface.
 - In a seamless way, a new task called `oled_ping_task` was integrated, allowing the application to also display the GET and response times from Google's server on the OLED screen.
-- This is just the tip of the iceberg: by respecting the core features of the Pico W (BDL), additional tasks can be created to support a variety of new functionalities according to project-specific needs.
+- This is just the tip of the iceberg: by respecting the core features of the Pico W ([BDL](https://github.com/BitDogLab/BitDogLab)), additional tasks can be created to support a variety of new functionalities according to project-specific needs.
 
 ---
 
