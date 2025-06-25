@@ -29,6 +29,10 @@ In this project, the [BDL](https://github.com/BitDogLab/BitDogLab)* board with i
 
 ---
 
+![Ping to Google DNS via OLED](https://raw.githubusercontent.com/alfecjo/picodevfirmware/main/project015/ping_google_bdl_ac/assets/DNS%208888%20Google.png)
+
+---
+
 ## 🧵 Tasks Created
 
 Once FreeRTOS is initialized, two main tasks are launched:
