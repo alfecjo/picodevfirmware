@@ -77,7 +77,7 @@ The project adheres to solid embedded design principles:
 
 ---
 
-> 💡 *This project showcases how modern embedded systems can efficiently integrate networking, multitasking, and visual feedback using FreeRTOS — proving that with the right structure, the sky is the limit.*
+> 💡 *This project showcases how modern embedded systems can efficiently integrate networking, multitasking, and visual feedback using FreeRTOS — proving that with the right structure, ***the sky is the limit.*** *
 
 ---
 
