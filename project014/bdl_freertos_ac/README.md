@@ -1,4 +1,4 @@
-# Project: Multitasking System with FreeRTOS on Raspberry Pi Pico
+# Project: Multitasking System with FreeRTOS on [BitDogLab](https://github.com/BitDogLab/BitDogLab)
 
 This project implements an embedded multitasking system on the BitDogLab (Raspberry Pi Pico), using the real-time operating system **FreeRTOS**.  
 The system is developed in **C** language using the **Pico SDK** and **VSCode**, focusing on task concurrency to control basic peripherals.
