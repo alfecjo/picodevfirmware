@@ -291,6 +291,12 @@ The image includes build tools, dependencies, and sample projects — all pre-co
 
 ---
 
+# PIO I²C Bus [Scanner](https://github.com/alfecjo/pio_i2c_bus_scan/releases/tag/v1.0.0) for Raspberry Pi Pico
+
+This `.uf2` firmware performs a full scan of the I²C bus using the Raspberry Pi Pico’s PIO (Programmable I/O) instead of the built-in I²C peripheral. It identifies which devices are connected and responding to valid 7-bit I²C addresses.
+
+---
+
 ## 👤 Author
 **[Antonio Almeida](https://alfecjo.github.io/) Embedded Systems Student**
 
